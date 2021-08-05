@@ -86,6 +86,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /* General Styles */
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    color: ##F0EBD7;
+    font-family: 'Basic Sans', sans-serif;
+    font-size: 1em;
+  }
+
+  /* Grid */
+
+  .full-width {
+        
+  }
 
 /* ==========================================================================
    Helper classes
