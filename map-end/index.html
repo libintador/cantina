@@ -18,43 +18,70 @@
 
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+
+  <!-- Adobe Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/tyg4efd.css">
+
+  <!-- FontAwesome kit version 6 -->
+  <script src="https://kit.fontawesome.com/789aac2997.js" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-
+  
   <header>
-    
-    back button
-
+    <article>
+      <p class="close-icon">
+        <i class="fa-light fa-circle-xmark"></i>
+      </p>
+    </article>
   </header>
 
   <main>
     
-    Embed Google Maps with a dark theme
-
-    The 
-    Cantina
-
-    [profile image]
-    
-    5 Teresa St
-    Villa Valderrama Subd
-    
-    Open
-
-    Mon - Sat
-    11am - 7pm
-
-    Get Directions button
+    <section class="map">
+      <figure>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31363.545491404548!2d122.94787042090373!3d10.7002591841975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed149059507c9%3A0xc8c8853c6551c109!2sCantina!5e0!3m2!1sen!2sph!4v1628223662199!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </figure>
+    </section> <!-- map -->
 
   </main>
+
+  <footer>
+    <div class="content-wrapper">
+      <div class="brand">
+        <h3>the</h3>
+        <h1>cantina</h1>
+      </div> <!-- brand -->
+
+      <div class="brand-details">
+        <div class="content-wrapper">
+          <div class="profile-image">
+
+          </div>
+          <div class="shop-specifics">
+            <address class="contact-content">
+              <h2>5 Teresa St</h2>
+              <p>Villa Valderrama Subd</p>
+              <div class="opening">
+                <h3>open</h3>
+                <div class="store-hours">
+                  <h3>mon - sat</h3>
+                  <h3>11am - 7pm</h3>
+                </div> <!-- store-hours -->
+              </div> <!-- opening -->
+            </address>
+          </div> <!-- shop-specifics -->
+        </div> <!-- brand-details content-wrapper -->
+      </div> <!-- brand-details -->
+
+      <i class="fa-light fa-paper-plane"></i>
+
+    </div> <!-- content-wrapper -->
+  </footer>
+
   
-  <footer>(c) 2021 the cantina by <a href="http://jesi-esque.studio" target="_blank">jesi-esque studio</a> <br> all rights reserved.</footer>
-
-
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
