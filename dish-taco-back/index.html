@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>The Cantina - Tacos are Our Spirit Animals</title>
+  <title>Regular Taco - The Cantina</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,9 +16,14 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  
+  <!-- Google Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/tyg4efd.css">
+
+  <!-- FontAwesome kit version 6 -->
+  <script src="https://kit.fontawesome.com/789aac2997.js" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -26,39 +31,80 @@
 <body>
 
   <header>
+    
+    <article>
+      <p class="back-icon">
+        <i class="fa-light fa-chevron-left"></i>
+      </p>
+    </article>
 
-    close button
+    <section class="title">
+      <h1>Regular Taco</h1>
+      <h5>&horbar; tacos &horbar;</h5>
+    </section>
 
   </header>
 
   <main>
-    
-    Regular Taco
-    - tacos -
-    
-    dish image
 
-    stuffing
+    <figure>
+      <img src="../img/taco/taco-taco-rev.png" alt="">
+    </figure>
 
-    Pork image
-    molido (pork)
-    
-    Beef image
-    carnita (beef)
+    <h4>Stuffing</h4>
 
-    Chicken image
-    pollo asado (chicken)
+    <section class="top-set">
+      <div class="pork">
+        <figure>
+          <img src="../img/meats/meats-pork.png" alt="">
+        </figure>
+        <p>molido &lpar;pork&rpar;</p>
+      </div> <!-- pork -->
+      <div class="beef">
+        <figure>
+          <img src="../img/meats/meats-beef.png" alt="">
+        </figure>
+        <p>carnita &lpar;beef&rpar;</p>
+      </div> <!-- beef -->
+    </section> <!-- top-set -->
 
-    Beans image
-    frijoles (beans)
-    
-    Chodobo image
-    chodobo (chicken + Spanish Chorizo)
+    <section class="mid-set">
+      <div class="chicken">
+        <hr style="border-style: dotted;" />
+        <h4>or</h4>
+        <figure>
+          <img src="../img/meats/meats-chicken.png" alt="">
+        </figure>
+        <p>pollo asado &lpar;chicken&rpar;</p>
+      </div> <!-- chicken -->
+      <div class="beans">
+        <hr style="border-style: dotted;" />
+        <h4>or</h4>
+        <figure>
+          <img src="../img/small-assets/small-assets-bean-puree.png" alt="">
+        </figure>
+        <p>frijoles &lpar;beans&rpar;</p>
+      </div> <!-- beans -->
+    </section> <!-- mid-set -->
 
+    <section class="btm-set">
+      <div class="chodobo">
+        <hr style="border-style: dotted;" />
+        <h4>or</h4>
+        <figure>
+          <img src="../img/meats/meats-sausages.png" alt="">
+        </figure>
+        <p>chodobo &lpar;chicken &plus; <br> Spanish chorizo&rpar;</p>
+      </div> <!-- chodobo -->
+    </section> <!-- btm-set -->
 
   </main>
   
-  <footer>(c) 2021 the cantina by <a href="http://jesi-esque.studio" target="_blank">jesi-esque studio</a> <br> all rights reserved.</footer>
+  <footer>
+    <div class="copyright">
+      <p>&copy; 2021 <span>the cantina</span> by <span><a href="http://jesi-esque.studio" target="_blank">jesi-esque studio</a></span> <br> all rights reserved.</p>
+    </div> <!-- copyright -->
+  </footer>
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
