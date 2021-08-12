@@ -18,7 +18,12 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Google Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/tyg4efd.css">
+
+  <!-- FontAwesome kit version 6 -->
+  <script src="https://kit.fontawesome.com/789aac2997.js" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -27,9 +32,19 @@
 
   <header>
 
-    [nav button]
-
-    <h1>our menu</h1>
+    <div class="content-wrapper">
+      
+      <article>
+        <p class="nav-icon">
+          <i class="fa-light fa-bars"></i>
+        </p>
+      </article>
+      
+      <div class="menu">
+        <h1>our menu</h1>
+      </div> <!-- menu -->
+        
+    </div> <!-- content-wrapper -->
 
   </header>
 
@@ -43,94 +58,160 @@
     </section>
 
     <section>
-      <div>
+      <div class="search-field">
+        <figure>
+          <i class="fa-light fa-magnifying-glass"></i>
+        </figure>
         <h2>search dishes</h2>
-      </div>
+      </div> <!-- search-field -->
  
-      <div>
-        <h3>tacos</h3>
-        <h3>mex fare</h3>
-        <h3>party platters</h3>
-        <h3>add ons</h3>
-      </div>
+      <div class="dish-category">
+        <div class="tacos">
+          <img src="../img/taco/taco-taco.png" alt="taco-image">
+          <p>tacos</p>
+        </div> <!-- tacos -->
+
+        <div class="mex-fare">
+          <img src="../img/mex-fare/mex-fare-nachos.png" alt="nachos-image">
+          <p>mex fare</p>
+        </div> <!-- mex-fare -->
+
+        <div class="party-platters">
+          <img src="../img/party-platter/party-platter-lasagna.png" alt="lasagna-image">
+          <p>party platters</p>
+        </div> <!-- party-platters -->
+
+        <div class="add-ons">
+          <img src="../img/small-assets/small-assets-baja.png" alt="baja-image">
+          <p>add ons</p>
+        </div> <!-- add-ons -->
+
+      </div> <!-- dish-category -->
       
-      <div>
-        <div>
-          <p>discover our</p>
-        </div>
-          
-        <div>
-          <h2>tacos</h2>
-        </div>
-      </div>
+      <div class="category-title">
+        <h4>&horbar;discover our&horbar;</h4>
+        <h3>tacos</h3>
+      </div> <!-- category-title -->
 
-      regular taco
-      P90
+      <div class="dishes">
 
-      taco trio
-      P200
+        <div class="reg-taco">
+          <figure>
+            <img src="../img/taco/taco-taco.png" alt="reg-taco">
+          </figure>
+          <div class="dish-details">
+            <p>regular taco</p>
+            <p><span>P90</span></p>
+          </div> <!-- dish-details -->
+        </div> <!-- reg-taco -->
 
-      Chat in messenger
+        <div class="taco-trio">
+          <figure>
+            <img src="../img/taco/taco-trio.png" alt="taco-trio">
+          </figure>
+          <div class="dish-details">
+            <p>taco trio</p>
+            <p><span>P200</span></p>
+          </div> <!-- dish-details -->
+        </div> <!-- taco-trio -->
 
-      taco trio extreme
-      P250
+        <div class="taco-trio-extreme">
+          <figure>
+            <img src="../img/taco/taco-trio-extreme.png" alt="taco-trio-extreme">
+          </figure>
+          <div class="dish-details">
+            <p>taco trio extreme</p>
+            <p><span>P250</span></p>
+          </div> <!-- dish-details -->
+        </div> <!-- taco-trio-extreme -->
 
-      taco wrap
-      P200
+        <div class="trio-wrap">
+          <figure>
+            <img src="../img/taco/taco-trio-wrap.png" alt="trio-wrap">
+          </figure>
+          <div class="dish-details">
+            <p>trio wrap</p>
+            <p><span>P200</span></p>
+          </div> <!-- dish-details -->
+        </div> <!-- trio-wrap -->
 
-      taco salad
-      P200
+        <div class="taco-salad">
+          <figure>
+            <img src="../img/taco/taco-salad.png" alt="taco-salad">
+          </figure>
+          <div class="dish-details">
+            <p>taco salad</p>
+            <p><span>P200</span></p>
+          </div> <!-- dish-details -->
+        </div> <!-- taco-salad -->
 
-      I eat tacos over a tortilla so when the stuff falls out, BOOM! Another taco!
+      </div> <!-- dishes -->
 
-      ready to order?
+      <aside>
+        <button>Chat in messenger</button>
+      </aside>
 
-      oh yes!
+      <p>I eat tacos over a tortilla so when the stuff falls out, BOOM! Another taco!</p>
 
-      [line]
+      <div class="order">
+        <h5>ready to order?</h5>
+        <button>oh yes!</button>
+      </div> <!-- order -->
 
-      - learn about our -
-      FAQ
+      <hr style="border-style: dotted;" />
 
-      Got a question you're itchin' to ask? Maybe we've already anticipated it. Check below.
+      <div class="faq-title">
+        <h4>&horbar;learn about our&horbar;</h4>
+        <h3>faq</h3>
+      </div> <!-- faq-title -->
 
-      How long will I need to wait for my order?
-      All orders take a day to be ready.
+      <p>Got a question you're itchin' to ask? Maybe we've already anticipated it. Check below.</p>
 
-      What is a tray's serving size?
-      A whole tray of food can satisfy 10 - 12 grown ups.
+      <div class="faq-list">
+        
+        <div class="quest-1">
+          <p>How long will I need to wait for my order?</p>
+          <p>All orders take a day to be ready.</p>
+        </div> <!-- quest-1 -->
 
-      Can I order per piece/slice?
-      All dishes are to be ordered per tray.
+        <div class="quest-2">
+          <p>What is a tray's serving size?</p>
+          <p>A whole tray of food can satisfy 10 - 12 grown ups.</p>
+        </div> <!-- quest-2 -->
 
-      Would I need to send in my own tray for my order?
-      The tray would already be included in the order price.
+        <div class="quest-3">
+          <p>Can I order per piece/slice?</p>
+          <p>All dishes are to be ordered per tray.</p>
+        </div> <!-- quest-3 -->
 
-      Can your tacos cure COVID-19?
-      Haha We truly wished they could, too. But nope, all they can cure would be your hangry-ness.
+        <div class="quest-4">
+          <p>Would I need to send in my own tray for my order?</p>
+          <p>The tray would already be included in the order price.</p>
+        </div> <!-- quest-4 -->
+      
+        <div class="quest-5">
+          <p>Can your tacos cure COVID-19?</p>
+          <p>Haha We truly wished they could, too. But nope, all they can cure would be your hangry-ness.</p>
+        </div> <!-- quest-5 -->
 
-      Do your tacos travel beyond Bacolod?
-      Our tacos have a secret wanderlust, TBH. But for now, they are exclusive to Bacolod.
+        <div class="quest-6">
+          <p>Do your tacos travel beyond Bacolod?</p>
+          <p>Our tacos have a secret wanderlust, TBH. But for now, they are exclusive to Bacolod.</p>
+        </div> <!-- quest-6 -->
 
-      back to top button
+      </div> <!-- faq-list -->
 
-      <div>
-
-
-      </div>
+      <button>back to top</button>
 
     </section>
 
-    <section>
-      <div>
-
-      </div>
-
-    </section>
-    
   </main>
   
-  <footer>(c) 2021 the cantina by <a href="http://jesi-esque.studio" target="_blank">jesi-esque studio</a> <br> all rights reserved.</footer>
+  <footer> 
+    <div class="copyright">
+      <p>&copy; 2021 <span>the cantina</span> by <span><a href="http://jesi-esque.studio" target="_blank">jesi-esque studio</a></span> <br> all rights reserved.</p>
+    </div> <!-- copyright -->
+  </footer>
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
