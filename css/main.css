@@ -93,15 +93,49 @@ textarea {
   }
 
   body {
-    color: ##F0EBD7;
+    color: #F0EBD7;
     font-family: 'Basic Sans', sans-serif;
     font-size: 1em;
+    display: flex;
+    background: url('../img/background/bg-home.png') center no-repeat #231F20;
+    background-size: cover;
+        
   }
 
-  /* Grid */
+  img {
+    width: 100%;
+    
+  }
 
-  .full-width {
-        
+  figure {
+    margin: 0;
+  }
+
+  /* --- Base Header - Footer Styles --- */
+
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* --- Mobile Styles - Homepage --- */
+
+  header figure {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /* Hero Area */
+
+  body .content-wrapper {
+    display: flex;
+    background: url('../img/layout/layout-hero.png') flex-end no-repeat;
+    background-size: cover;
   }
 
 /* ==========================================================================
