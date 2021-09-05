@@ -122,6 +122,8 @@ textarea {
 
   /* --- Mobile Styles - Homepage --- */
 
+  /* Header Area */
+
   header figure {
     width: 30%;
     display: flex;
@@ -132,11 +134,28 @@ textarea {
 
   /* Hero Area */
 
-  body .content-wrapper {
-    display: flex;
-    background: url('../img/layout/layout-hero.png') flex-end no-repeat;
-    background-size: cover;
+  .hero-area {
+    overflow: hidden;
+    position: relative;    
   }
+
+  .hero-bkg {
+    opacity: 0.5;
+    display: flex;
+    position: flex-end;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-content {
+    position: relative;
+  }
+
+
+
+
 
 /* ==========================================================================
    Helper classes
