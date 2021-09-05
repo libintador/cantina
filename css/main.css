@@ -141,8 +141,8 @@ textarea {
     background: url('../img/layout/layout-hero.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left bottom;
-    min-height: 500px;
+    background-position: 0px 0px;
+    min-height: 600px;
     opacity: 0.5;    
   }
 
