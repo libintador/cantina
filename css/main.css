@@ -135,24 +135,18 @@ textarea {
   /* Hero Area */
 
   .hero-area {
-    overflow: hidden;
-    position: relative;    
-  }
-
-  .hero-bkg {
-    opacity: 0.5;
     display: flex;
-    position: flex-end;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/layout/layout-hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    min-height: 500px;
+    opacity: 0.5;    
   }
 
-  .hero-content {
-    position: relative;
-  }
-
+  
 
 
 
