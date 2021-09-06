@@ -127,7 +127,8 @@ textarea {
   .brand h3 {
     color: #797B3A;
     font-size: 18px;
-    letter-spacing: 4px;
+    font-weight: lighter;
+    letter-spacing: 6px;
     line-height: 22px;
     margin-top: 108px;
     display: flex;
@@ -146,7 +147,19 @@ textarea {
     margin: 0px;
   }
 
-  
+  .brand h2 {
+    color: #BED38E;
+    opacity: 0.72;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 0 40px 0 40px;
+    text-align: center;
+  }
 
   /* Hero Area */
 
@@ -157,8 +170,8 @@ textarea {
     background: url('../img/layout/layout-hero.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    min-height: 593px;
+    background-position: 0px 35px;
+    min-height: 552px;
   }
 
   .hero-area .content-wrapper {
@@ -174,6 +187,7 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     height: 0px;
+    margin-top: 20px;
   }
 
 
