@@ -95,7 +95,7 @@ textarea {
   body {
     color: #F0EBD7;
     font-family: 'Basic Sans', sans-serif;
-    font-size: 1em;
+    font-size: 16px;
     display: flex;
     background: url('../img/background/bg-home.png') center no-repeat #231F20;
     background-size: cover;
@@ -124,13 +124,29 @@ textarea {
 
   /* Header Area */
 
-  header figure {
-    width: 30%;
+  .brand h3 {
+    color: #797B3A;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 22px;
+    margin-top: 108px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    margin-bottom: 12px;
   }
+
+  .brand p {
+    color: #BED38E;
+    font-family: 'Continuo', sans-serif;
+    font-size: 60px;
+    letter-spacing: 10px;
+    line-height: 77px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  
 
   /* Hero Area */
 
@@ -142,11 +158,40 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    min-height: 562px;
-    opacity: 0.5;    
+    min-height: 593px;
   }
 
-  
+  .hero-area .content-wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 0;
+  }
+
+  .hero-area figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 0px;
+  }
+
+
+    /* --- Mobile Styles - Homescreen - End --- */
+    
+    /* Hero Area */
+
+    /*.hero-area {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      background: url('../img/layout/layout-hero.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0px 0px;
+      min-height: 562px;
+      opacity: 0.5;*/    
+    }
 
 
 
