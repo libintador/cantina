@@ -190,6 +190,34 @@ textarea {
     margin-top: 20px;
   }
 
+  /* Footer Area */
+
+  footer {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .copyright {
+    display: flex;
+    text-align: center;
+    
+  }
+  
+  .copyright p {
+    font-size: 11px;
+    line-height: 15px;
+    opacity: 0.6;
+  }
+
+  .copyright span, .copyright span a {
+    color: #F0EBD7;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  
+
 
     /* --- Mobile Styles - Homescreen - End --- */
     
