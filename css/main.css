@@ -178,6 +178,7 @@ textarea {
     display: flex;
     justify-content: center;
     min-height: 0;
+    flex-direction: column wrap;
   }
 
   .hero-area figure {
