@@ -130,7 +130,7 @@ textarea {
     font-weight: lighter;
     letter-spacing: 6px;
     line-height: 22px;
-    margin-top: 108px;
+    margin-top: 46px;
     display: flex;
     justify-content: center;
     margin-bottom: 12px;
@@ -151,13 +151,13 @@ textarea {
     color: #BED38E;
     opacity: 0.72;
     font-weight: bold;
-    font-size: 10px;
-    letter-spacing: 4px;
+    font-size: 12px;
+    letter-spacing: 3px;
     line-height: 20px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    margin: 0 40px 0 40px;
+    margin: 0 50px 0 50px;
     text-align: center;
   }
 
@@ -172,6 +172,7 @@ textarea {
     background-repeat: no-repeat;
     background-position: 0px 35px;
     min-height: 552px;
+    opacity: 0.62;
   }
 
   .hero-area .content-wrapper {
@@ -182,7 +183,7 @@ textarea {
   }
 
   .hero-area figure {
-    width: 60%;
+    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,6 +197,7 @@ textarea {
   footer {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 30px;
   }
 
   .copyright {
@@ -204,17 +206,18 @@ textarea {
     
   }
   
-  .copyright p {
+  .copyright p, .copyright a {
+    color: #F0EBD7;
     font-size: 11px;
+    font-weight: bold;
     line-height: 15px;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
+    text-decoration: none;
   }
 
-  .copyright span, .copyright span a {
-    color: #F0EBD7;
-    opacity: 1;
-    font-weight: bold;
-    text-decoration: none;
+  .copyright span {
+    font-weight: normal;
+    opacity: 0.6;
   }
 
   
