@@ -168,11 +168,11 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     background: url('../img/layout/layout-hero.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0px 35px;
-    min-height: 552px;
-    opacity: 0.62;
+    background-position: 0px 96px;
+    height: 615px;
+    opacity: 0.5;
   }
 
   .hero-area .content-wrapper {
