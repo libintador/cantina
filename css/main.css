@@ -157,7 +157,7 @@ textarea {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    margin: 0 50px 0 50px;
+    margin: 10px 50px 0 50px;
     text-align: center;
   }
 
@@ -168,9 +168,7 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     height: 0px;
-    margin-top: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 30px 120px 30px 120px;
   }
 
   /* Hero Area */
@@ -189,8 +187,8 @@ textarea {
       url('../img/layout/layout-hero.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0px 76px;
-    height: 595px;
+    background-position: 0px 25px;
+    height: 544px;
     
   }
 
@@ -198,18 +196,59 @@ textarea {
     display: flex;
     justify-content: center;
     min-height: 0;
-    flex-direction: column wrap;
+    flex-flow: row wrap;
   }
 
-  /*.hero-area figure {
-    width: 35%;
+  .hero-area .intro {
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    height: 0px;
-    margin-top: 20px;
-  }*/
+    text-align: center;
+    margin: 5px 50px 0 50px;
+    line-height: 25px;  
+  }
+
+  .hero-area .nav {
+    
+    
+
+  }
+
+  .hero-area .nav button {
+    width: 262px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .hero-area .nav button a {
+    color: #F0EBD7;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .hero-area .about-btn {
+    background-color: #AB4F40;
+    border: none;
+  }
+
+  .hero-area .menu-btn {
+    background-color: #43544A;
+    border: none;
+  }
+
+  .hero-area .contact-btn {
+    background-color: #8C3F2D;
+    border: none;
+  }
+
 
   /* Footer Area */
 
