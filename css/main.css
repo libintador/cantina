@@ -209,15 +209,9 @@ textarea {
     line-height: 25px;  
   }
 
-  .hero-area .nav {
-    
-    
-
-  }
-
   .hero-area .nav button {
-    width: 262px;
-    height: 52px;
+    width: 240px;
+    height: 46px;
     display: flex;
     justify-content: center;
     margin: 30px;
@@ -247,6 +241,30 @@ textarea {
   .hero-area .contact-btn {
     background-color: #8C3F2D;
     border: none;
+  }
+
+  .hero-area .msgr-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+  }
+
+  .hero-area .msgr-btn .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .hero-area .msgr-btn figure {
+
+  }
+
+  .hero-area .msgr-btn figure img {
+    height: 60px;
+    width: 100%;
   }
 
 
