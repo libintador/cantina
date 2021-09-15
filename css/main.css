@@ -98,8 +98,9 @@ textarea {
     font-size: 16px;
     display: flex;
     background: url('../img/background/bg-home.png') center no-repeat #231F20;
-    background-size: cover;
-        
+    background-size: contain;
+    height: 812px;
+    width: 375px;
   }
 
   img {
@@ -124,16 +125,24 @@ textarea {
 
   /* Header Area */
 
+  .brand {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 40px 0px;
+  }
+
   .brand h3 {
     color: #797B3A;
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 6px;
     line-height: 22px;
-    margin-top: 46px;
+    margin: 10px 0px;
     display: flex;
     justify-content: center;
-    margin-bottom: 12px;
+    
+    width: 100%;
   }
 
   .brand p {
@@ -145,6 +154,7 @@ textarea {
     display: flex;
     justify-content: center;
     margin: 0px;
+    width: 100%;
   }
 
   .brand h2 {
@@ -168,12 +178,12 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     height: 0px;
-    margin: 30px 120px 30px 120px;
+    margin: 0px 120px 30px 120px;
   }
 
   /* Hero Area */
 
-  .hero-area {
+  .home-end .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -187,19 +197,18 @@ textarea {
       url('../img/layout/layout-hero.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0px 25px;
-    height: 544px;
-    
+    background-position: 0px 14px;
+    height: 533px;
   }
 
-  .hero-area .content-wrapper {
+  .home-end .hero-area .content-wrapper {
     display: flex;
     justify-content: center;
     min-height: 0;
     flex-flow: row wrap;
   }
 
-  .hero-area .intro {
+  .home-end .hero-area .intro {
     width: 70%;
     display: flex;
     justify-content: center;
@@ -209,7 +218,7 @@ textarea {
     line-height: 25px;  
   }
 
-  .hero-area .nav button {
+  .home-end .hero-area .nav button {
     width: 240px;
     height: 46px;
     display: flex;
@@ -217,7 +226,7 @@ textarea {
     margin: 30px;
   }
 
-  .hero-area .nav button a {
+  .home-end .hero-area .nav button a {
     color: #F0EBD7;
     text-decoration: none;
     text-transform: uppercase;
@@ -228,17 +237,17 @@ textarea {
     margin: 5px 5px 5px 5px;
   }
 
-  .hero-area .about-btn {
+  .home-end .hero-area .about-btn {
     background-color: #AB4F40;
     border: none;
   }
 
-  .hero-area .menu-btn {
+  .home-end .hero-area .menu-btn {
     background-color: #43544A;
     border: none;
   }
 
-  .hero-area .contact-btn {
+  .home-end .hero-area .contact-btn {
     background-color: #8C3F2D;
     border: none;
   }
@@ -279,7 +288,6 @@ textarea {
   .copyright {
     display: flex;
     text-align: center;
-    
   }
   
   .copyright p, .copyright a {
@@ -287,7 +295,6 @@ textarea {
     font-size: 11px;
     font-weight: bold;
     line-height: 15px;
-    /*opacity: 0.6;*/
     text-decoration: none;
   }
 
@@ -311,7 +318,7 @@ textarea {
   header .close-btn-1 {
     display: flex;
     width: 100%;
-    margin: 40px 0px 20px 0px;
+    margin: 40px 0px 10px 0px;
   }
 
   header .close-btn-1 .dot {
@@ -328,7 +335,7 @@ textarea {
 
   }
 
-  header figure {
+  header .close-btn-1 .dot figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -380,12 +387,11 @@ textarea {
     background-color: #8C3F2D;
     border: none;
   }
-
   
 
   /* Hero Area */
 
-  .hero-area {
+  .menu-nav .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -399,57 +405,12 @@ textarea {
       url('../img/layout/layout-hero.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0px 30px;
-    height: 549px;
-    margin-top: -60px;
+    background-position: 0px 0px;
+    height: 518px;
+    margin-top: -20px;
   }
 
-  .hero-area .brand {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    margin: 105px 30px 30px 30px;
-  }
-
-  .brand h3 {
-    color: #797B3A;
-    font-size: 18px;
-    font-weight: lighter;
-    letter-spacing: 6px;
-    line-height: 22px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    
-    width: 100%;
-  }
-
-  .brand p {
-    color: #BED38E;
-    font-family: 'Continuo', sans-serif;
-    font-size: 60px;
-    letter-spacing: 10px;
-    line-height: 77px;
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-  }
-
-  .brand h2 {
-    color: #BED38E;
-    opacity: 0.72;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 3px;
-    line-height: 20px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    margin: 10px 50px 0 50px;
-    text-align: center;
-  }
-
-  .hero-area figure {
+  .menu-nav .hero-area figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -458,8 +419,6 @@ textarea {
     height: 0px;
     margin: 30px 120px 30px 120px;
   }
-
-  
 
   .hero-area .msgr-btn {
     width: 100%;
@@ -486,36 +445,7 @@ textarea {
   }
 
 
-  /* Footer Area */
 
-  footer {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 30px;
-  }
-
-  .copyright {
-    display: flex;
-    text-align: center;
-    
-  }
-  
-  .copyright p, .copyright a {
-    color: #F0EBD7;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 15px;
-    /*opacity: 0.6;*/
-    text-decoration: none;
-  }
-
-  .copyright span {
-    font-weight: normal;
-    opacity: 0.6;
-  }
-
-
-    
 
 
 
