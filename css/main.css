@@ -322,12 +322,12 @@ textarea {
   }
 
   header .close-btn-1 .dot {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     background-color: #bbb;
     border-radius: 50%;
     display: flex;
-    opacity: 0.35;
+    /*opacity: 0.35;*/
   }
 
   header .close-btn-1 .dot i {
@@ -342,7 +342,7 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     height: 28px;
-    margin: 5px 11px 5px 11px;
+    margin: 7px 13px;
     color: #797B3A;
   }
 
@@ -407,7 +407,7 @@ textarea {
     background-repeat: no-repeat;
     background-position: 0px 0px;
     height: 518px;
-    margin-top: -20px;
+    margin-top: -24px;
   }
 
   .menu-nav .hero-area figure {
@@ -463,6 +463,10 @@ textarea {
     height: 50px;
   }
 
+  .contact header a {
+    text-decoration: none;
+  }
+
   .contact header .nav-btn {
     display: flex;
     width: 30%;
@@ -496,6 +500,7 @@ textarea {
 
   .contact header .contact-title {
     display: flex;
+    margin: 0px 60px;
   }
 
   .contact header .contact-title h1 {
@@ -508,6 +513,37 @@ textarea {
     letter-spacing: 5px;
     margin: 15px;
   }
+
+  /* --- Mobile Styles - Dish-Front-Taco --- */
+
+  /* Header Area */
+
+
+  /* Hero Area */
+
+  .dish-bottom .hero-area {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/background/dish-bkg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 549px;
+    margin-top: 103px;
+  }
+
+  .dish-bottom .dish-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish-bottom .dish-image figure {
+    width: 40%;
+    margin-top: -125px;
+  }
+
+
   
 /* ==========================================================================
    Helper classes
