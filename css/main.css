@@ -321,7 +321,7 @@ textarea {
     margin: 40px 0px 10px 0px;
   }
 
-  header .close-btn-1 .dot {
+  header .close-btn-1 span {
     height: 40px;
     width: 40px;
     background-color: #bbb;
@@ -330,7 +330,7 @@ textarea {
     /*opacity: 0.35;*/
   }
 
-  header .close-btn-1 .dot i {
+  header .close-btn-1 i {
     display: flex;
 
   }
@@ -518,6 +518,67 @@ textarea {
 
   /* Header Area */
 
+  .dish-top header {
+    display: flex;
+  }
+
+  .dish-top header .content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .dish-top header a {
+    text-decoration: none;
+    width: 15%;
+    margin: 45px 20px 0px;
+  }
+
+  .dish-top .back-btn {
+    display: flex;
+  }
+
+  .dish-top .back-btn .dot {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .dish-top .back-btn .dot figure {
+    margin: 13px 12px;
+  }
+
+  .dish-top .back-btn .dot figure i {
+    color: #AB4F40;
+    
+  }
+
+  .dish-top .dish-title {
+    margin: 30px 58px 15px;
+    width: 85%;
+  }
+
+  .dish-top .dish-title h1 {
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 33px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .dish-top .dish-title h5 {
+    font-family: 'Yrsa', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: flex-start;
+    margin: -10px 0px 0px 11px;
+  }
+
 
   /* Hero Area */
 
@@ -525,11 +586,11 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('../img/background/dish-bkg.png');
+    /*background: url('../img/background/dish-bkg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    height: 549px;
+    height: 549px;*/
     margin-top: 103px;
   }
 
@@ -540,9 +601,64 @@ textarea {
 
   .dish-bottom .dish-image figure {
     width: 40%;
-    margin-top: -125px;
+    margin-top: -105px;
   }
 
+  .dish-bottom .hero-area .dish-price h2 {
+    color: #797B3A;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+
+  .dish-bottom .hero-area .dish-copy {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .dish-bottom .hero-area .dish-copy h4 {
+    color: #E04952;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .dish-bottom .hero-area .dish-copy p {
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.8;
+    width: 65%;
+    margin: 20px 0;
+  }
+
+  .dish-bottom .hero-area .order-btn {
+    
+    opacity: 0.4;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish-bottom .hero-area .order-btn button {
+    color: #AB4F40;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 33px;
+    
+  }
+
+  .dish-bottom .hero-area footer {
+    margin: 25px 0;
+  }
+
+  
 
   
 /* ==========================================================================
