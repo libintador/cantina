@@ -594,6 +594,14 @@ textarea {
     height: 604px;
   }
 
+  .dish-bottom .hero-area a {
+    text-decoration: none;
+    color: #F0EBD7;
+    opacity: 0.8;
+    display: inline-flex;
+    justify-content: center;
+  }
+
   .dish-bottom .hero-area #glass-bkg {
     display: flex;
     justify-content: center;
