@@ -541,7 +541,7 @@ textarea {
   .dish-top .back-btn .dot {
     height: 40px;
     width: 40px;
-    background-color: #bbb;
+    background-color: rgb(94, 92, 92, 0.5);
     border-radius: 50%;
     display: flex;
   }
@@ -586,22 +586,32 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    /*background: url('../img/background/dish-bkg.png');
-    background-size: contain;
+    background: url('../img/background/small-assets.png');
+    background-size: 446px 600px;
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    height: 549px;*/
-    margin-top: 103px;
+    background-position: -35px 63px;
+    margin-top: 55px;
+    height: 604px;
   }
 
-  .dish-bottom .dish-image {
+  .dish-bottom .hero-area .glass-bkg {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-flow: row wrap;
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
+    background-size: 310px 486px;
+  }
+
+  .dish-bottom .hero-area .glass-bkg .dish-image {
     display: flex;
     justify-content: center;
   }
 
-  .dish-bottom .dish-image figure {
+  .dish-bottom .hero-area .glass-bkg .dish-image figure {
     width: 40%;
-    margin-top: -105px;
+    margin-top: -65px;
   }
 
   .dish-bottom .hero-area .dish-price h2 {
@@ -609,6 +619,8 @@ textarea {
     font-weight: bold;
     font-size: 22px;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
   }
 
   .dish-bottom .hero-area .dish-copy {
@@ -632,13 +644,11 @@ textarea {
     font-size: 15px;
     line-height: 25px;
     opacity: 0.8;
-    width: 65%;
+    width: 70%;
     margin: 20px 0;
   }
 
   .dish-bottom .hero-area .order-btn {
-    
-    opacity: 0.4;
     margin: 20px 0;
     width: 100%;
     display: flex;
@@ -651,11 +661,12 @@ textarea {
     font-size: 14px;
     font-weight: bold;
     padding: 12px 33px;
-    
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
   }
 
   .dish-bottom .hero-area footer {
-    margin: 25px 0;
+    margin: 20px 0;
   }
 
   
