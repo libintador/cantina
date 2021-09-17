@@ -594,7 +594,7 @@ textarea {
     height: 604px;
   }
 
-  .dish-bottom .hero-area .glass-bkg {
+  .dish-bottom .hero-area #glass-bkg {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -604,12 +604,12 @@ textarea {
     background-size: 310px 486px;
   }
 
-  .dish-bottom .hero-area .glass-bkg .dish-image {
+  .dish-bottom .hero-area #glass-bkg .dish-image {
     display: flex;
     justify-content: center;
   }
 
-  .dish-bottom .hero-area .glass-bkg .dish-image figure {
+  .dish-bottom .hero-area #glass-bkg .dish-image figure {
     width: 40%;
     margin-top: -65px;
   }
