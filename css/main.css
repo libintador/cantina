@@ -586,12 +586,19 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('../img/background/small-assets.png');
-    background-size: 446px 600px;
+    background: 
+    /* top, transparent black */ 
+    linear-gradient(
+      rgba(34, 28, 28, 0.5), 
+      rgba(10, 10, 10, 0.5)
+    ),
+      /* bottom, image */
+    url('../img/background/small-assets.png');
+    background-size: 446px 616px;
     background-repeat: no-repeat;
-    background-position: -35px 63px;
-    margin-top: 55px;
-    height: 604px;
+    background-position: -35px 45px;
+    margin-top: 73px;
+    height: 586px;
   }
 
   .dish-bottom .hero-area a {
@@ -618,8 +625,8 @@ textarea {
   }
 
   .dish-bottom .hero-area #glass-bkg .dish-image figure {
-    width: 40%;
-    margin-top: -65px;
+    width: 54%;
+    margin-top: -80px;
   }
 
   .dish-bottom .hero-area .dish-price h2 {
@@ -629,15 +636,16 @@ textarea {
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
+    
   }
 
-  .dish-bottom .hero-area .dish-copy {
+  .dish-bottom .hero-area .dish-copy-front {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
 
-  .dish-bottom .hero-area .dish-copy h4 {
+  .dish-bottom .hero-area .dish-copy-front h4 {
     color: #E04952;
     font-size: 12px;
     text-transform: uppercase;
@@ -648,7 +656,7 @@ textarea {
     margin: 0;
   }
 
-  .dish-bottom .hero-area .dish-copy p {
+  .dish-bottom .hero-area .dish-copy-front p {
     font-size: 15px;
     line-height: 25px;
     opacity: 0.8;
@@ -674,10 +682,63 @@ textarea {
   }
 
   .dish-bottom .hero-area footer {
-    margin: 20px 0;
+    margin: 0px 0px 30px;
   }
 
+  /* --- Mobile Styles - Dish-Back-Taco --- */
+
+  /* Hero Area */
+
+  .dish-bottom .hero-area .dish-copy-back h4 {
+    color: #BED38E;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .dish-bottom .dish-copy-back .top-set,
+  .dish-bottom .dish-copy-back .mid-set,
+  .dish-bottom .dish-copy-back .btm-set {
+    display: flex;
+  }
+
+  .dish-bottom .dish-copy-back .top-set .pork figure img {
+    width: 35%;
+  }
+
+  .dish-bottom .dish-copy-back .top-set .beef figure img {
+    width: 47%;
+  }
+
+  .dish-bottom .dish-copy-back .mid-set .chicken figure img {
+    width: 47%;
+  }
+
+  .dish-bottom .dish-copy-back .mid-set .beans figure img {
+    width: 38%;
+  }
+
+  .dish-bottom .dish-copy-back .btm-set .chicken figure img {
+    width: 24%;
+  }
   
+  .dish-bottom .dish-copy-back .btm-set .chodobo figure img {
+    width: 24%;
+  }
+
+  .dish-bottom .dish-copy-back .mid-set h4,
+  .dish-bottom .dish-copy-back .btm-set h4 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #8C3F2D;
+    text-transform: lowercase;
+  }
+
+
+
 
   
 /* ==========================================================================

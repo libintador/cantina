@@ -30,81 +30,110 @@
 
 <body>
 
-  <header>
-    
-    <article>
-      <p class="back-icon">
-        <i class="fa-light fa-chevron-left"></i>
-      </p>
-    </article>
+  <div class="content-wrapper">
+    <div class="dish-top">
+      <header>
+        <div class="content-wrapper">
 
-    <section class="title">
-      <h1>Regular Taco</h1>
-      <h5>&horbar; tacos &horbar;</h5>
-    </section>
+          <a href="../menu-offerings/index.html">
+            <div class="back-btn">
+              <span class="dot">
+                <figure>
+                  <i class="fa-light fa-chevron-left"></i>
+                </figure>
+              </span>
+            </div> <!-- back-btn -->
+          </a>
+          
+          <div class="dish-title">
+            <h1>Regular<br> Taco</h1>
+            <h5>&horbar; tacos &horbar;</h5>
+          </div> <!-- dish-title -->
 
-  </header>
-
-  <main>
-
-    <figure>
-      <img src="../img/taco/taco-taco-rev.png" alt="">
-    </figure>
-
-    <h4>Stuffing</h4>
-
-    <section class="top-set">
-      <div class="pork">
-        <figure>
-          <img src="../img/meats/meats-pork.png" alt="">
-        </figure>
-        <p>molido &lpar;pork&rpar;</p>
-      </div> <!-- pork -->
-      <div class="beef">
-        <figure>
-          <img src="../img/meats/meats-beef.png" alt="">
-        </figure>
-        <p>carnita &lpar;beef&rpar;</p>
-      </div> <!-- beef -->
-    </section> <!-- top-set -->
-
-    <section class="mid-set">
-      <div class="chicken">
-        <hr style="border-style: dotted;" />
-        <h4>or</h4>
-        <figure>
-          <img src="../img/meats/meats-chicken.png" alt="">
-        </figure>
-        <p>pollo asado &lpar;chicken&rpar;</p>
-      </div> <!-- chicken -->
-      <div class="beans">
-        <hr style="border-style: dotted;" />
-        <h4>or</h4>
-        <figure>
-          <img src="../img/small-assets/small-assets-bean-puree.png" alt="">
-        </figure>
-        <p>frijoles &lpar;beans&rpar;</p>
-      </div> <!-- beans -->
-    </section> <!-- mid-set -->
-
-    <section class="btm-set">
-      <div class="chodobo">
-        <hr style="border-style: dotted;" />
-        <h4>or</h4>
-        <figure>
-          <img src="../img/meats/meats-sausages.png" alt="">
-        </figure>
-        <p>chodobo &lpar;chicken &plus; <br> Spanish chorizo&rpar;</p>
-      </div> <!-- chodobo -->
-    </section> <!-- btm-set -->
-
-  </main>
+        </div> <!-- content-wrapper --> 
+      </header>
+    </div> <!-- dish-top -->
   
-  <footer>
-    <div class="copyright">
-      <p>&copy; 2021 <span>the cantina</span> by <span><a href="http://jesi-esque.studio" target="_blank">jesi-esque studio</a></span> <br> all rights reserved.</p>
-    </div> <!-- copyright -->
-  </footer>
+    <main>
+
+      <section class="dish-bottom">
+        <div class="hero-area">
+          <a href="../dish-taco-front/index.html">  
+            <div id="glass-bkg">
+              <div class="dish-image">
+                <figure>
+                  <img src="../img/taco/taco-taco-rev.png" alt="regular taco">
+                </figure>
+              </div> <!-- dish-image -->
+
+              <div class="dish-copy-back">
+                <h4>Stuffing</h4>
+                
+                <div class="top-set">
+                  <div class="pork">
+                    <figure>
+                      <img src="../img/meats/meats-pork.png" alt="">
+                    </figure>
+                    <p>molido &lpar;pork&rpar;</p>
+                  </div> <!-- pork -->
+                  <div class="beef">
+                    <figure>
+                      <img src="../img/meats/meats-beef.png" alt="">
+                    </figure>
+                    <p>carnita &lpar;beef&rpar;</p>
+                  </div> <!-- beef -->
+                </div> <!-- top-set -->
+
+                <div class="mid-set">
+                  <div class="chicken">
+                    <hr style="border-style: dotted;" />
+                    <h4>or</h4>
+                    <figure>
+                      <img src="../img/meats/meats-chicken.png" alt="">
+                    </figure>
+                    <p>pollo asado &lpar;chicken&rpar;</p>
+                  </div> <!-- chicken -->
+                  <div class="beans">
+                    <hr style="border-style: dotted;" />
+                    <h4>or</h4>
+                    <figure>
+                      <img src="../img/small-assets/small-assets-bean-puree.png" alt="">
+                    </figure>
+                    <p>frijoles &lpar;beans&rpar;</p>
+                  </div> <!-- beans -->
+                </div> <!-- mid-set -->
+
+                <div class="btm-set">
+                  <div class="chodobo">
+                    <hr style="border-style: dotted;" />
+                    <h4>or</h4>
+                    <figure>
+                      <img src="../img/meats/meats-chicken.png" alt="">
+                    </figure>
+                    <figure>
+                      <img src="../img/meats/meats-sausages.png" alt="">
+                    </figure>
+                    <p>chodobo &lpar;chicken &plus; <br> Spanish chorizo&rpar;</p>
+                  </div> <!-- chodobo -->
+                </div> <!-- btm-set -->
+              </div> <!-- dish-copy-back -->
+
+            </div> <!-- glass-bkg -->
+          </a>
+
+          <footer>
+            <div class="copyright">
+              <p><span>&copy; 2021</span> The Cantina <span>by</span> <a href="http://jesi-esque.studio" target="_blank">Jesi-esque Studio</a> <br> <span>All rights reserved.</span></p>
+            </div> <!-- copyright -->
+          </footer>
+
+        </div> <!-- hero-area -->
+
+      </section> <!-- dish-bottom -->
+      
+    </main>
+    
+  </div> <!-- body content-wrapper -->
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
