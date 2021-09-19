@@ -112,6 +112,11 @@ textarea {
     margin: 0;
   }
 
+  hr.stuffing-top,
+  hr.stuffing-btm {
+    border-top: 2px dotted #797B3A;
+  }
+
   /* --- Base Header - Footer Styles --- */
 
   header,
@@ -697,45 +702,120 @@ textarea {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 8px 0px 4px;
   }
 
-  .dish-bottom .dish-copy-back .top-set,
-  .dish-bottom .dish-copy-back .mid-set,
-  .dish-bottom .dish-copy-back .btm-set {
+  
+  .top-set {
     display: flex;
+    justify-content: space-around;
   }
 
-  .dish-bottom .dish-copy-back .top-set .pork figure img {
-    width: 35%;
-  }
-
-  .dish-bottom .dish-copy-back .top-set .beef figure img {
-    width: 47%;
-  }
-
-  .dish-bottom .dish-copy-back .mid-set .chicken figure img {
-    width: 47%;
-  }
-
-  .dish-bottom .dish-copy-back .mid-set .beans figure img {
-    width: 38%;
-  }
-
-  .dish-bottom .dish-copy-back .btm-set .chicken figure img {
-    width: 24%;
+  .mid-set {
+    display: flex;
+    justify-content: space-around;
   }
   
-  .dish-bottom .dish-copy-back .btm-set .chodobo figure img {
-    width: 24%;
+  .btm-set {
+    display: flex;
+    justify-content: space-around;
   }
 
-  .dish-bottom .dish-copy-back .mid-set h4,
+  .pork, .beef, .chicken, .beans, .chodobo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .pork figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .beef figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .chicken figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .beans figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  /*margin-top: 8px;*/
+  }
+
+  /*.pork figure img {
+    width: 50%;
+  }
+
+  .beef figure img {
+    width: 50%;
+  }*/
+
+  .pork p {
+    margin: 0px 0px 0px;
+  }
+
+  .chicken p {
+    margin: 5px 30px 0px;
+    text-align: center;
+  }
+
+  .chodobo p {
+    margin: 0px 0px 15px;
+    text-align: center;
+  }
+
+  .chodobo .chick,
+  .chodobo .saus {
+    width: 21%;
+  }
+  
+  .chicken .stuffing-top {
+    width: 65%;
+    margin: 0px;
+  }
+
+  .beans .stuffing-top {
+    width: 68%;
+    margin: 0px;
+  }
+
+  .chodobo .stuffing-top {
+    width: 45%;
+    margin: 10px 0px 0px;
+  }
+
+  .dish-bottom .dish-copy-back .mid-set h4 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #8C3F2D;
+    text-transform: lowercase;
+    margin: 0px 0px 10px;
+  }
+
   .dish-bottom .dish-copy-back .btm-set h4 {
     font-weight: bold;
     font-size: 12px;
     color: #8C3F2D;
     text-transform: lowercase;
+    margin: 3px 2px 0px;
   }
+
+  .btm-set .btm-images {
+    display: flex;
+    justify-content: center;
+  }
+
+  
 
 
 
