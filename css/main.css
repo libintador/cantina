@@ -451,7 +451,7 @@ textarea {
 
   /* Header Area */
 
-  .contact header .content-wrapper {
+  .contact-top header .content-wrapper {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -459,24 +459,24 @@ textarea {
     margin: 15px;
   }
 
-  .contact header {
+  .contact-top header {
     width: 100%;
     background-color: #8C3F2D;
     margin: 45px 0px;
     height: 50px;
   }
 
-  .contact header a {
+  .contact-top header a {
     text-decoration: none;
   }
 
-  .contact header .nav-btn {
+  .contact-top header .nav-btn {
     display: flex;
     width: 30%;
     margin: 5px 0px;
   }
 
-  .contact header .nav-btn .dot {
+  .contact-top header .nav-btn .dot {
     height: 40px;
     width: 40px;
     background-color: rgb(94, 92, 92, 0.5);
@@ -488,7 +488,7 @@ textarea {
     display: flex;
   }
 
-  .contact header .nav-btn .dot figure {
+  .contact-top header .nav-btn .dot figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -499,12 +499,12 @@ textarea {
     color: #797B3A;
   }
 
-  .contact header .contact-title {
+  .contact-top header .contact-title {
     display: flex;
     margin: 0px 60px;
   }
 
-  .contact header .contact-title h1 {
+  .contact-top header .contact-title h1 {
     display: flex;
     font-weight: bold;
     text-transform: uppercase;
@@ -514,6 +514,27 @@ textarea {
     letter-spacing: 5px;
     margin: 15px;
   }
+
+  /* Hero Area */ 
+
+  .contact-bottom .hero-area {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/layout/layout-skull.png');
+    background-size: 329px 629px;
+    background-repeat: no-repeat;
+    background-position: 21px 0px;
+    height: 629px;
+  }
+  
+  .hero-area h2 {
+    color: #43544A;
+    font-size: 26px;
+    font-weight: normal;
+  }
+
+
 
   
   /* --- Mobile Styles - Dish-Front-Taco --- */
@@ -805,7 +826,7 @@ textarea {
   
   /* --- Mobile Styles - Menu-Offerings  --- */
 
-  body {
+  body.menu {
     background: url('../img/background/bg-menu.png') center no-repeat #231F20;
     background-size: contain;
     height: 1960px;
@@ -881,7 +902,7 @@ textarea {
 
   /* --- Mobile Styles - About-End  --- */
 
-  body {
+  body.about {
     background: url('../img/background/bg-about.png') center no-repeat #231F20;
     background-size: contain;
     height: 2045px;
@@ -890,7 +911,7 @@ textarea {
 
   /* Header Area */
 
-  .contact header .content-wrapper {
+  .about-end header .content-wrapper {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -898,24 +919,24 @@ textarea {
     margin: 15px;
   }
 
-  .contact header {
+  .about-end header {
     width: 100%;
     background-color: #8C3F2D;
     margin: 45px 0px;
     height: 50px;
   }
 
-  .contact header a {
+  .about-end header a {
     text-decoration: none;
   }
 
-  .contact header .nav-btn {
+  .about-end header .nav-btn {
     display: flex;
     width: 30%;
     margin: 5px 0px;
   }
 
-  .contact header .nav-btn .dot {
+  .about-end header .nav-btn .dot {
     height: 40px;
     width: 40px;
     background-color: rgb(94, 92, 92, 0.5);
@@ -927,7 +948,7 @@ textarea {
     display: flex;
   }
 
-  .contact header .nav-btn .dot figure {
+  .about-end header .nav-btn .dot figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -938,12 +959,12 @@ textarea {
     color: #797B3A;
   }
 
-  .contact header .contact-title {
+  .about-end header .contact-title {
     display: flex;
     margin: 0px 60px;
   }
 
-  .contact header .contact-title h1 {
+  .about-end header .contact-title h1 {
     display: flex;
     font-weight: bold;
     text-transform: uppercase;
