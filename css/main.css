@@ -313,20 +313,25 @@ textarea {
 
   /* Header Area */
 
-  header .content-wrapper {
+  .nav-top header .content-wrapper {
     display: flex;
     justify-content: center;
     min-height: 0;
     flex-flow: row wrap;
   }
 
-  header .close-btn-1 {
+  .nav-top header a {
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .nav-top header .close-btn {
     display: flex;
     width: 100%;
-    margin: 40px 0px 10px 0px;
+    margin: 50px 15px 0px 0px;
   }
 
-  header .close-btn-1 span {
+  header .close-btn span {
     height: 40px;
     width: 40px;
     background-color: rgb(94, 92, 92, 0.5);
@@ -334,11 +339,11 @@ textarea {
     display: flex;
   }
 
-  header .close-btn-1 i {
+  header .close-btn i {
     display: flex;
   }
 
-  header .close-btn-1 .dot figure {
+  header .close-btn .dot figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -349,7 +354,7 @@ textarea {
     color: #797B3A;
   }
 
-  header .nav {
+  .nav-top header .nav-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,7 +362,7 @@ textarea {
     flex-flow: row wrap;
   }
 
-  header .nav button {
+  .nav-top header .nav-main button {
     width: 240px;
     height: 46px;
     display: flex;
@@ -365,7 +370,7 @@ textarea {
     margin: 15px;
   }
 
-  header .nav button a {
+  .nav-top header .nav-main button a {
     color: #F0EBD7;
     text-decoration: none;
     text-transform: uppercase;
@@ -394,7 +399,7 @@ textarea {
 
   /* Hero Area */
 
-  .menu-nav .hero-area {
+  .nav-btm .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -413,7 +418,7 @@ textarea {
     margin-top: -24px;
   }
 
-  .menu-nav .hero-area figure {
+  .nav-btm .hero-area figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -845,6 +850,27 @@ textarea {
     justify-content: center;
   }
 
+  /* --- Mobile Styles - Map-End  --- */
+
+  
+  /* Map Area */
+
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   
   /* --- Mobile Styles - Menu-Offerings  --- */
 
@@ -996,6 +1022,8 @@ textarea {
     letter-spacing: 5px;
     margin: 15px;
   }
+
+  
 
 
 
