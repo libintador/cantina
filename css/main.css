@@ -960,7 +960,7 @@ textarea {
 
   .menu-offerings header {
     width: 100%;
-    background-color: #8C3F2D;
+    background-color: #43544A;
     margin: 45px 0px;
     height: 50px;
   }
@@ -998,12 +998,12 @@ textarea {
     color: #797B3A;
   }
 
-  .menu-offerings header .contact-title {
+  .menu-offerings header .menu-title {
     display: flex;
     margin: 0px 60px;
   }
 
-  .menu-offerings header .contact-title h1 {
+  .menu-offerings header .menu-title h1 {
     display: flex;
     font-weight: bold;
     text-transform: uppercase;
@@ -1013,6 +1013,28 @@ textarea {
     letter-spacing: 5px;
     margin: 15px;
   }
+
+  /* Logo */
+
+  .menu-logo figure {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Dishes */
+  
+  #search h2 {
+    display: flex;
+    color: #E04952;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+
+  /* FAQ */
+
+
 
 
   /* --- Mobile Styles - About-End  --- */
