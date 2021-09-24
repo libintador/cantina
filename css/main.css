@@ -334,7 +334,7 @@ textarea {
   header .close-btn span {
     height: 40px;
     width: 40px;
-    background-color: rgb(94, 92, 92, 0.5);
+    background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
   }
@@ -484,7 +484,7 @@ textarea {
   .contact-top header .nav-btn .dot {
     height: 40px;
     width: 40px;
-    background-color: rgb(94, 92, 92, 0.5);
+    background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
   }
@@ -517,7 +517,7 @@ textarea {
     color: #797B3A;
     line-height: 24px;
     letter-spacing: 5px;
-    margin: 15px;
+    margin: 15px 25px;
   }
 
   /* Hero Area */ 
@@ -978,7 +978,7 @@ textarea {
   .menu-offerings header .nav-btn .dot {
     height: 40px;
     width: 40px;
-    background-color: rgb(94, 92, 92, 0.5);
+    background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
   }
@@ -1011,17 +1011,36 @@ textarea {
     color: #797B3A;
     line-height: 24px;
     letter-spacing: 5px;
-    margin: 15px;
+    margin: 15px 25px;
   }
 
   /* Logo */
 
+  .menu-logo .logo {
+    display: flex;justify-content: center;
+    
+  }
+
   .menu-logo figure {
     display: flex;
-    width: 100%;
+    width: 30%;
+  }
+
+  .menu-logo figure img {
+    display: flex;
   }
   
   /* Dishes */
+  
+  .dishes #search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #search figure i {
+    color: #E04952;
+  }
   
   #search h2 {
     display: flex;
@@ -1030,6 +1049,102 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 3px;
   }
+
+  .dish-category {
+    display: flex;
+  }
+
+  .tacos {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .tacos img,
+  .mex-fare img,
+  .party-platters img,
+  .add-ons img {
+    width: 23%;
+    display: flex;
+    
+  }  
+  
+  .dish-category .tacos p,
+  .dish-category .mex-fare p,
+  .dish-category .party-platters p,
+  .dish-category .add-ons p {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+  }
+
+  .category-title {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .category-title h4,
+  .category-title h3 {
+    display: flex;
+    justify-content: center; 
+    color: #BED38E; 
+  }
+
+  .category-title h4 {
+    font-family: 'Yrsa', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+
+  .category-title h3 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .dishlist #reg-taco {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .dishlist #reg-taco figure,
+  .dishlist #reg-taco .dish-details {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .dishlist #reg-taco figure img {
+    width: 58%;
+    display: flex;
+    align-self: center;
+  }
+
+  .dishlist #reg-taco .dish-details {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dishlist a {
+    text-decoration: none;
+  }
+  
+  .dish-details p {
+    text-transform: capitalize;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    color: #F0EBD7;
+  }
+
+  .dish-details p span {
+    color: #797B3A;
+    font-weight: bold;
+   
+  }
+
+
 
 
   /* FAQ */
@@ -1076,7 +1191,7 @@ textarea {
   .about-end header .nav-btn .dot {
     height: 40px;
     width: 40px;
-    background-color: rgb(94, 92, 92, 0.5);
+    background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
   }
