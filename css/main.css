@@ -1102,25 +1102,49 @@ textarea {
     text-transform: uppercase;
   }
 
-  .dishlist #reg-taco {
+  #reg-taco,
+  #trio-extreme,
+  #taco-salad {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
   }
 
-  .dishlist #reg-taco figure,
-  .dishlist #reg-taco .dish-details {
+  #taco-trio,
+  #trio-wrap {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  #reg-taco figure,
+  #reg-taco .dish-details,
+  #taco-trio figure,
+  #taco-trio .dish-details,
+  #trio-extreme figure,
+  #trio-extreme .dish-details,
+  #trio-wrap figure,
+  #trio-wrap .dish-details,
+  #taco-salad figure,
+  #taco-salad .dish-details {
     width: 50%;
     display: flex;
     flex-flow: column wrap;
   }
 
-  .dishlist #reg-taco figure img {
+  #reg-taco figure img,
+  #taco-trio figure img,
+  #trio-extreme figure img,
+  #trio-wrap figure img,
+  #taco-salad figure img {
     width: 58%;
     display: flex;
     align-self: center;
   }
 
-  .dishlist #reg-taco .dish-details {
+  #reg-taco .dish-details,
+  #taco-trio .dish-details,
+  #trio-extreme .dish-details,
+  #trio-wrap .dish-details,
+  #taco-salad .dish-details {
     display: flex;
     justify-content: center;
   }
@@ -1144,12 +1168,55 @@ textarea {
    
   }
 
-
+  .dish-meme p {
+    color: #E04952;
+    font-size: 15px;
+    text-align: center;
+  }
 
 
   /* FAQ */
 
+  .line-1 .quest,
+  .line-1 .ans,
+  .line-2 .quest,
+  .line-2 .ans,
+  .line-3 .quest,
+  .line-3 .ans,
+  .line-4 .quest,
+  .line-4 .ans,
+  .line-5 .quest,
+  .line-5 .ans,
+  .line-6 .quest,
+  .line-6 .ans {
+    padding: 5px;
+    margin: 1px 35px;
+  }
 
+  .line-1 .quest,
+  .line-2 .quest,
+  .line-3 .quest,
+  .line-4 .quest,
+  .line-5 .quest,
+  .line-6 .quest {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(67, 84, 74, 0.8);
+    border: none;
+    color: rgb(240, 235, 215, 0.7);
+  }
+
+  .line-1 .ans,
+  .line-2 .ans,
+  .line-3 .ans,
+  .line-4 .ans,
+  .line-5 .ans,
+  .line-6 .ans {
+    color: #2D2729;
+    font-size: 12px;
+    background-color: rgb(171, 79, 64, 0.5);
+    border: none;
+  }
 
 
   /* --- Mobile Styles - About-End  --- */
