@@ -998,12 +998,12 @@ textarea {
     color: #797B3A;
   }
 
-  .menu-offerings header .menu-title {
+  .menu-offerings header #menu-title {
     display: flex;
     margin: 0px 60px;
   }
 
-  .menu-offerings header .menu-title h1 {
+  .menu-offerings header #menu-title h1 {
     display: flex;
     font-weight: bold;
     text-transform: uppercase;
@@ -1016,7 +1016,7 @@ textarea {
 
   /* Logo */
 
-  .menu-logo .logo {
+  .menu-logo #logo {
     display: flex;justify-content: center;
     
   }
@@ -1040,6 +1040,7 @@ textarea {
 
   #search figure i {
     color: #E04952;
+    transform: scaleX(-1);
   }
   
   #search h2 {
@@ -1093,10 +1094,11 @@ textarea {
     font-family: 'Yrsa', sans-serif;
     font-size: 12px;
     letter-spacing: 3px;
+    font-weight: normal;
   }
 
   .category-title h3 {
-    font-size: 15px;
+    font-size: 26px;
     font-weight: bold;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -1174,8 +1176,50 @@ textarea {
     text-align: center;
   }
 
+  .order h5 {
+    color: #AA182B;
+    font-family: 'Bree', sans-serif;
+    font-size: 18px;
+    font-weight: semibold;
+    letter-spacing: 1px;
+  }
+
 
   /* FAQ */
+  
+  .faq-title {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .faq-title h4,
+  .faq-title h3 {
+    color: #BED38E;
+    display: flex;
+    justify-content: center;
+  }
+
+  .faq-title h4 {
+    font-family: 'Yrsa', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+
+  .faq-title h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+  .faq-intro p {
+    color: rgb(240, 235, 215, 0.8);
+    font-family: 'Yrsa',serif;
+    letter-spacing: 1px;
+    margin: 30px 32px;
+  }
 
   .line-1 .quest,
   .line-1 .ans,
@@ -1189,7 +1233,7 @@ textarea {
   .line-5 .ans,
   .line-6 .quest,
   .line-6 .ans {
-    padding: 5px;
+    padding: 8px;
     margin: 1px 35px;
   }
 
@@ -1216,6 +1260,33 @@ textarea {
     font-size: 12px;
     background-color: rgb(171, 79, 64, 0.5);
     border: none;
+  }
+
+  .back-top {
+    display: flex;
+  }
+
+  #back2top {
+    display: flex;
+    justify-content: end;
+  }
+
+  #back2top .chilisaus {
+    width: 13%;
+    margin: -25px -11px 0px 0px;
+  }
+
+  #back2top .backtext {
+    margin: 67px -74px 0px 0px;
+  }
+
+  #back2top .chilis {
+    width: 20%;
+    margin-top: -15px;
+  }
+
+  .faq footer {
+    margin-top: -93px;
   }
 
 
