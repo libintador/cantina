@@ -859,7 +859,7 @@ textarea {
     width: 40%;
     display: flex;
     justify-content: center;
-  /*margin-top: 8px;*/
+  
   }
 
   .pork p {
@@ -942,7 +942,7 @@ textarea {
   /* --- Mobile Styles - Menu-Offerings  --- */
 
   body#menu {
-    background: url('../img/background/bg-menu.png') center no-repeat #231F20;
+    background: url('../img/background/bg-txtrd-bg.jpeg') center repeat #231F20;
     background-size: contain;
     height: 1960px;
     width: 375px;
@@ -950,19 +950,28 @@ textarea {
 
   /* Header Area */
 
+  #egg-fore {
+    width: 100%;
+  }
+
+  #egg-fore img {
+    width: 50%;
+    display: block;
+  }
+  
+  .menu-offerings header {
+    width: 100%;
+    background-color: #43544A;
+    margin-top: -38px;
+    height: 50px;
+  }
+  
   .menu-offerings header .content-wrapper {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     height: 50px;
     margin: 15px;
-  }
-
-  .menu-offerings header {
-    width: 100%;
-    background-color: #43544A;
-    margin: 45px 0px;
-    height: 50px;
   }
 
   .menu-offerings header a {
@@ -1016,6 +1025,26 @@ textarea {
 
   /* Logo */
 
+  .dishes {
+    background: 
+    /* top, transparent black */ 
+    linear-gradient(
+      rgba(34, 28, 28, 0.1), 
+      rgba(10, 10, 10, 0.1)
+    ),
+      /* bottom, image */
+    url('../img/background/menu-elements.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20px -74px;
+    margin-top: 0px;
+    
+  }
+
+  .menu-logo {
+    margin: 30px 0px;
+  }
+
   .menu-logo #logo {
     display: flex;justify-content: center;
     
@@ -1036,6 +1065,19 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 2px;
+    padding: 15px;
+    border: solid #E04952;
+    margin: 35px 60px;
+  }
+
+  #search figure {
+    display: flex;
+  }
+
+  #search figure i, 
+  #search h2 {
+    margin: 0px 6px;
   }
 
   #search figure i {
@@ -1053,18 +1095,25 @@ textarea {
 
   .dish-category {
     display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
   }
 
-  .tacos {
+  .tacos, .mex-fare, .party-platters, .add-ons {
     display: flex;
     flex-flow: column wrap;
+    width: 15%;
+  }
+
+  .mex-fare, .party-platters, .add-ons {
+    opacity: 0.6;
   }
 
   .tacos img,
   .mex-fare img,
   .party-platters img,
   .add-ons img {
-    width: 23%;
+    width: 100%;
     display: flex;
     
   }  
@@ -1076,32 +1125,43 @@ textarea {
     text-transform: capitalize;
     display: flex;
     justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
   }
 
   .category-title {
     display: flex;
     flex-flow: column wrap;
+    margin: 19px 0px;
   }
 
   .category-title h4,
   .category-title h3 {
     display: flex;
     justify-content: center; 
-    color: #BED38E; 
+    color: #BED38E;
+    letter-spacing: 3px;
+    margin: 0px; 
   }
 
   .category-title h4 {
     font-family: 'Yrsa', sans-serif;
     font-size: 12px;
-    letter-spacing: 3px;
+    
     font-weight: normal;
   }
 
   .category-title h3 {
     font-size: 26px;
     font-weight: bold;
-    letter-spacing: 3px;
+    
     text-transform: uppercase;
+  }
+
+  .dishlist {
+    display: flex;
+    flex-flow: row wrap;
   }
 
   #reg-taco,
@@ -1115,6 +1175,26 @@ textarea {
   #trio-wrap {
     display: flex;
     flex-flow: row-reverse;
+  }
+
+  #reg-taco {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #taco-trio {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #trio-extreme {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #trio-wrap {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #taco-salad {
+    margin: 20px 0px 20px 0px;
   }
 
   #reg-taco figure,
@@ -1143,15 +1223,22 @@ textarea {
   }
 
   #reg-taco .dish-details,
-  #taco-trio .dish-details,
   #trio-extreme .dish-details,
-  #trio-wrap .dish-details,
   #taco-salad .dish-details {
     display: flex;
     justify-content: center;
+    align-content: flex-start;
   }
 
-  .dishlist a {
+  #taco-trio .dish-details,
+  #trio-wrap .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+  }
+
+  .dishlist-top a,
+  .dishlist-btm a {
     text-decoration: none;
   }
   
@@ -1160,32 +1247,85 @@ textarea {
     font-size: 12px;
     display: flex;
     justify-content: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #F0EBD7;
+    margin: 3px 0px;
   }
 
   .dish-details p span {
     color: #797B3A;
     font-weight: bold;
-   
+  }
+
+  aside {
+    margin: 20px 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+  aside button {
+    color: #F0EBD7;
+    text-transform: capitalize;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
+    transform: rotate(270deg);
+    margin: 0px -51px 0px 0px;
   }
 
   .dish-meme p {
     color: #E04952;
     font-size: 15px;
     text-align: center;
+    margin: 30px 45px;
+    line-height: 2;
+    letter-spacing: 1px;
   }
 
+  .order {
+    margin: 45px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
   .order h5 {
     color: #AA182B;
     font-family: 'Bree', sans-serif;
     font-size: 18px;
-    font-weight: semibold;
+    font-weight: bold;
     letter-spacing: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .order button {
+    color: #AB4F40;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 33px;
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
+    width: 100%;
+    margin: 23px 75px;
   }
 
 
   /* FAQ */
+
+  .faq-line {
+    border-top: 2px dotted #797B3A;
+    width: 63%;
+    margin: 35px 70px;
+  }
   
   .faq-title {
     display: flex;
@@ -1197,6 +1337,7 @@ textarea {
     color: #BED38E;
     display: flex;
     justify-content: center;
+    margin: 0px;
   }
 
   .faq-title h4 {
@@ -1211,7 +1352,7 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: normal;
-    margin: 0px;
+    
   }
 
   .faq-intro p {
