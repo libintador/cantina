@@ -1025,7 +1025,7 @@ textarea {
 
   /* Logo */
 
-  .dishes {
+  #menu main {
     background: 
     /* top, transparent black */ 
     linear-gradient(
@@ -1034,9 +1034,9 @@ textarea {
     ),
       /* bottom, image */
     url('../img/background/menu-elements.png');
-    background-size: cover;
+    background-size: 423px 1251px;
     background-repeat: no-repeat;
-    background-position: -20px -74px;
+    background-position: -25px -25px;
     margin-top: 0px;
     
   }
@@ -1166,6 +1166,21 @@ textarea {
 
   #reg-taco,
   #trio-extreme,
+  #trio-wrap,
+  #taco-salad {
+    margin: 20px 0px;
+  }
+
+  #taco-trio {
+    margin: -45px 0px 33px 0px;
+  }
+
+  #trio-wrap {
+    margin: 38px 0px;
+  }
+
+  #reg-taco,
+  #trio-extreme,
   #taco-salad {
     display: flex;
     flex-flow: row;
@@ -1175,26 +1190,6 @@ textarea {
   #trio-wrap {
     display: flex;
     flex-flow: row-reverse;
-  }
-
-  #reg-taco {
-    margin: 20px 0px 20px 0px;
-  }
-
-  #taco-trio {
-    margin: 20px 0px 20px 0px;
-  }
-
-  #trio-extreme {
-    margin: 20px 0px 20px 0px;
-  }
-
-  #trio-wrap {
-    margin: 20px 0px 20px 0px;
-  }
-
-  #taco-salad {
-    margin: 20px 0px 20px 0px;
   }
 
   #reg-taco figure,
@@ -1318,8 +1313,24 @@ textarea {
     margin: 23px 75px;
   }
 
+  #corn {
+    margin: -68px 75px;
+  }
+
+  #corn figure {
+
+  }
+
+  #corn figure img {
+    width: 40%;
+  }
+
 
   /* FAQ */
+
+  .faq {
+    margin-top: 57px;
+  }
 
   .faq-line {
     border-top: 2px dotted #797B3A;
