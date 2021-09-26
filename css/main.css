@@ -1526,6 +1526,74 @@ textarea {
     opacity: 0.6;
   }
 
+  #reg-taco,
+  #trio-extreme,
+  #trio-wrap,
+  #taco-salad {
+    margin: 20px 0px;
+  }
+
+  #taco-trio {
+    margin: -45px 0px 33px 0px;
+  }
+
+  #trio-wrap {
+    margin: 38px 0px;
+  }
+
+  #reg-taco,
+  #trio-extreme,
+  #taco-salad {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #taco-trio,
+  #trio-wrap {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  #reg-taco figure,
+  #reg-taco .dish-details,
+  #taco-trio figure,
+  #taco-trio .dish-details,
+  #trio-extreme figure,
+  #trio-extreme .dish-details,
+  #trio-wrap figure,
+  #trio-wrap .dish-details,
+  #taco-salad figure,
+  #taco-salad .dish-details {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #reg-taco figure img,
+  #taco-trio figure img,
+  #trio-extreme figure img,
+  #trio-wrap figure img,
+  #taco-salad figure img {
+    width: 58%;
+    display: flex;
+    align-self: center;
+  }
+
+  #reg-taco .dish-details,
+  #trio-extreme .dish-details,
+  #taco-salad .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  #taco-trio .dish-details,
+  #trio-wrap .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+  }
+
 
 
 
@@ -1542,6 +1610,74 @@ textarea {
   #party .mex-fare, 
   #party .add-ons {
     opacity: 0.6;
+  }
+
+  #reg-taco,
+  #trio-extreme,
+  #trio-wrap,
+  #taco-salad {
+    margin: 20px 0px;
+  }
+
+  #taco-trio {
+    margin: -45px 0px 33px 0px;
+  }
+
+  #trio-wrap {
+    margin: 38px 0px;
+  }
+
+  #reg-taco,
+  #trio-extreme,
+  #taco-salad {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #taco-trio,
+  #trio-wrap {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  #reg-taco figure,
+  #reg-taco .dish-details,
+  #taco-trio figure,
+  #taco-trio .dish-details,
+  #trio-extreme figure,
+  #trio-extreme .dish-details,
+  #trio-wrap figure,
+  #trio-wrap .dish-details,
+  #taco-salad figure,
+  #taco-salad .dish-details {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #reg-taco figure img,
+  #taco-trio figure img,
+  #trio-extreme figure img,
+  #trio-wrap figure img,
+  #taco-salad figure img {
+    width: 58%;
+    display: flex;
+    align-self: center;
+  }
+
+  #reg-taco .dish-details,
+  #trio-extreme .dish-details,
+  #taco-salad .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  #taco-trio .dish-details,
+  #trio-wrap .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
   }
 
 
@@ -1562,7 +1698,73 @@ textarea {
     opacity: 0.6;
   }
 
+  #beans,
+  #trio-extreme,
+  #trio-wrap,
+  #taco-salad {
+    margin: 20px 0px;
+  }
 
+  #taco-trio {
+    margin: -45px 0px 33px 0px;
+  }
+
+  #trio-wrap {
+    margin: 38px 0px;
+  }
+
+  #beans,
+  #trio-extreme,
+  #taco-salad {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #taco-trio,
+  #trio-wrap {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  #beans figure,
+  #beans .dish-details,
+  #taco-trio figure,
+  #taco-trio .dish-details,
+  #trio-extreme figure,
+  #trio-extreme .dish-details,
+  #trio-wrap figure,
+  #trio-wrap .dish-details,
+  #taco-salad figure,
+  #taco-salad .dish-details {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #beans figure img,
+  #taco-trio figure img,
+  #trio-extreme figure img,
+  #trio-wrap figure img,
+  #taco-salad figure img {
+    width: 58%;
+    display: flex;
+    align-self: center;
+  }
+
+  #beans .dish-details,
+  #trio-extreme .dish-details,
+  #taco-salad .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  #taco-trio .dish-details,
+  #trio-wrap .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+  }
 
 
 /* --- Mobile Styles - About-End  --- */
