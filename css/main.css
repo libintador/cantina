@@ -309,7 +309,7 @@ textarea {
   }
 
   
-/* --- Mobile Styles - Menu-Main  --- */
+/* --- Mobile Styles - Menu-Main-Tacos --- */
 
   /* Header Area */
 
@@ -939,9 +939,9 @@ textarea {
   }
 
   
-  /* --- Mobile Styles - Menu-Offerings  --- */
+  /* --- Mobile Styles - Menu-Tacos  --- */
 
-  body#menu {
+  body#tacos {
     background: url('../img/background/bg-txtrd-bg.jpeg') center repeat #231F20;
     background-size: contain;
     height: 1960px;
@@ -1025,7 +1025,7 @@ textarea {
 
   /* Logo */
 
-  #menu main {
+  #tacos main {
     background: 
     /* top, transparent black */ 
     linear-gradient(
@@ -1103,7 +1103,7 @@ textarea {
   .tacos, .mex-fare, .party-platters, .add-ons {
     display: flex;
     flex-flow: column wrap;
-    width: 15%;
+    width: 50%;
   }
 
   .mex-fare, .party-platters, .add-ons {
@@ -1117,12 +1117,19 @@ textarea {
     width: 100%;
     display: flex;
     
-  }  
+  }
+  
+  .dish-category a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
   
   .dish-category .tacos p,
   .dish-category .mex-fare p,
   .dish-category .party-platters p,
   .dish-category .add-ons p {
+    color: #F0EBD7;
     text-transform: capitalize;
     display: flex;
     justify-content: center;
