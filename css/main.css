@@ -941,7 +941,7 @@ textarea {
   
   /* --- Mobile Styles - Menu-Tacos  --- */
 
-  body#tacos {
+  body#menu {
     background: url('../img/background/bg-txtrd-bg.jpeg') center repeat #231F20;
     background-size: contain;
     height: 1960px;
@@ -1025,7 +1025,7 @@ textarea {
 
   /* Logo */
 
-  #tacos main {
+  #menu main {
     background: 
     /* top, transparent black */ 
     linear-gradient(
@@ -1511,7 +1511,61 @@ textarea {
   }
 
 
-  /* --- Mobile Styles - About-End  --- */
+  /* --- Mobile Styles - Menu-Mex  --- */
+
+  /* Dishes */
+  
+  
+  #mex .mex-fare {
+    opacity: 1;
+  }
+
+  #mex .tacos, 
+  #mex .party-platters,
+  #mex .add-ons {
+    opacity: 0.6;
+  }
+
+
+
+
+  /* --- Mobile Styles - Menu-Party  --- */
+
+  /* Dishes */
+  
+  
+  #party .party-platters {
+    opacity: 1;
+  }
+
+  #party .tacos, 
+  #party .mex-fare, 
+  #party .add-ons {
+    opacity: 0.6;
+  }
+
+
+
+
+/* --- Mobile Styles - Menu-Add  --- */
+
+  /* Dishes */
+  
+  
+  #add .add-ons {
+    opacity: 1;
+  }
+
+  #add .tacos, 
+  #add .mex-fare, 
+  #add .party-platters {
+    opacity: 0.6;
+  }
+
+
+
+
+/* --- Mobile Styles - About-End  --- */
 
   body#about {
     background: url('../img/background/bg-about.png') center no-repeat #231F20;
