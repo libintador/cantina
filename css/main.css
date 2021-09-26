@@ -1078,6 +1078,7 @@ textarea {
   #search figure i, 
   #search h2 {
     margin: 0px 6px;
+    text-decoration: line-through;
   }
 
   #search figure i {
@@ -1337,10 +1338,35 @@ textarea {
     width: 63%;
     margin: 35px 70px;
   }
+
+  .tomatoes {
+    display: flex;
+  }
+
+  .tom123 {
+    display: flex;
+    justify-content: end;
+  }
+
+  #tom1 {
+    width: 6%;
+    margin: -38px 225px 0px 0px;
+  }
+
+  #tom2 {
+    width: 5%;
+    margin: 0px 66px 0px -226px;
+  }
+
+  #tom3 {
+    width: 7%;
+    margin: 63px 139px 0px 0px;
+  }
   
   .faq-title {
     display: flex;
     flex-flow: column wrap;
+    margin-top: -90px;
   }
   
   .faq-title h4,
@@ -1414,7 +1440,8 @@ textarea {
     border: none;
   }
 
-  .back-top {
+  .back-top,
+  .nachos-btm {
     display: flex;
   }
 
@@ -1437,8 +1464,43 @@ textarea {
     margin-top: -15px;
   }
 
+  .nachos-btm {
+    margin: -61px 0px 0px 0px;
+  }
+
+  #nacho-avo {
+    display: flex;
+    justify-content: start;
+  }
+
+  #nacho {
+    width: 18%;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #nacho img {
+    margin: 0px 0px 0px 0px;
+  }
+
+  #chips {
+    width: 15%;
+    margin: -43px 21px 0px -41px;
+  }
+  #chips img {
+    margin: 0px 0px 0px 0px;
+  }
+
+  #avo {
+    width: 15%;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #avo img {
+    margin: 0px 0px 0px 0px;
+  }
+
   .faq footer {
-    margin-top: -93px;
+    margin-top: -102px;
   }
 
 
