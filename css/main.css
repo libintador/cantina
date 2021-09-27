@@ -1514,6 +1514,22 @@ textarea {
   /* --- Mobile Styles - Menu-Mex  --- */
 
   /* Dishes */
+
+  #menu #mex {
+    background: 
+    /* top, transparent black */ 
+    linear-gradient(
+      rgba(34, 28, 28, 0.1), 
+      rgba(10, 10, 10, 0.1)
+    ),
+      /* bottom, image */
+    url('../img/background/menu-elements.png');
+    background-size: 423px 1101px;
+    background-repeat: no-repeat;
+    background-position: -25px -25px;
+    margin-top: 0px;
+    
+  }
   
   
   #mex .mex-fare {
@@ -1526,75 +1542,86 @@ textarea {
     opacity: 0.6;
   }
 
-  #reg-taco,
-  #trio-extreme,
-  #trio-wrap,
-  #taco-salad {
-    margin: 20px 0px;
+  #burrito {
+    margin: -59px 125px 20px 0px;
   }
 
-  #taco-trio {
-    margin: -45px 0px 33px 0px;
+  #nachos {
+    margin: 20px 0px 20px 0px;
   }
 
-  #trio-wrap {
-    margin: 38px 0px;
+  #quesadilla {
+    margin: 20px 46px 20px 0px;
   }
 
-  #reg-taco,
-  #trio-extreme,
-  #taco-salad {
+  #mex-rice {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #nachos,
+  #mex-rice {
     display: flex;
     flex-flow: row;
   }
 
-  #taco-trio,
-  #trio-wrap {
+  #burrito,
+  #quesadilla {
     display: flex;
     flex-flow: row-reverse;
   }
 
-  #reg-taco figure,
-  #reg-taco .dish-details,
-  #taco-trio figure,
-  #taco-trio .dish-details,
-  #trio-extreme figure,
-  #trio-extreme .dish-details,
-  #trio-wrap figure,
-  #trio-wrap .dish-details,
-  #taco-salad figure,
-  #taco-salad .dish-details {
+  #burrito figure,
+  #burrito .dish-details,
+  #nachos figure,
+  #nachos .dish-details,
+  #quesadilla figure,
+  #quesadilla .dish-details,
+  #mex-rice figure,
+  #mex-rice .dish-details {
     width: 50%;
     display: flex;
     flex-flow: column wrap;
   }
 
-  #reg-taco figure img,
-  #taco-trio figure img,
-  #trio-extreme figure img,
-  #trio-wrap figure img,
-  #taco-salad figure img {
-    width: 58%;
+  #burrito figure img,
+  #nachos figure img,
+  #quesadilla figure img,
+  #mex-rice figure img {
     display: flex;
     align-self: center;
   }
 
-  #reg-taco .dish-details,
-  #trio-extreme .dish-details,
-  #taco-salad .dish-details {
+  #burrito figure img {
+    width: 83%;
+  }
+
+  #nachos figure img {
+    width: 58%;
+  }
+
+  #quesadilla figure img {
+    width: 60%;
+  }
+
+  #mex-rice figure img {
+    width: 58%;
+  }
+
+  #nachos .dish-details,
+  #mex-rice .dish-details {
     display: flex;
     justify-content: center;
     align-content: flex-start;
   }
 
-  #taco-trio .dish-details,
-  #trio-wrap .dish-details {
+  #burrito .dish-details, 
+  #quesadilla .dish-details {
     display: flex;
     justify-content: center;
     align-content: flex-end;
   }
 
-
+  
 
 
   /* --- Mobile Styles - Menu-Party  --- */
@@ -1612,69 +1639,68 @@ textarea {
     opacity: 0.6;
   }
 
-  #reg-taco,
-  #trio-extreme,
-  #trio-wrap,
-  #taco-salad {
+  #shrimp,
+  #palabok,
+  #pesto,
+  #lasagna,
+  #beef,
+  #steak {
     margin: 20px 0px;
   }
 
-  #taco-trio {
-    margin: -45px 0px 33px 0px;
-  }
-
-  #trio-wrap {
-    margin: 38px 0px;
-  }
-
-  #reg-taco,
-  #trio-extreme,
-  #taco-salad {
+  #shrimp,
+  #pesto,
+  #beef {
     display: flex;
     flex-flow: row;
   }
 
-  #taco-trio,
-  #trio-wrap {
+  #palabok,
+  #lasagna,
+  #steak {
     display: flex;
     flex-flow: row-reverse;
   }
 
-  #reg-taco figure,
-  #reg-taco .dish-details,
-  #taco-trio figure,
-  #taco-trio .dish-details,
-  #trio-extreme figure,
-  #trio-extreme .dish-details,
-  #trio-wrap figure,
-  #trio-wrap .dish-details,
-  #taco-salad figure,
-  #taco-salad .dish-details {
+  #shrimp figure,
+  #shrimp .dish-details,
+  #palabok figure,
+  #palabok .dish-details,
+  #pesto figure,
+  #pesto .dish-details,
+  #lasagna figure,
+  #lasagna .dish-details,
+  #beef figure,
+  #beef .dish-details,
+  #steak figure,
+  #steak .dish-details {
     width: 50%;
     display: flex;
     flex-flow: column wrap;
   }
 
-  #reg-taco figure img,
-  #taco-trio figure img,
-  #trio-extreme figure img,
-  #trio-wrap figure img,
-  #taco-salad figure img {
+  #shrimp figure img,
+  #palabok figure img,
+  #pesto figure img,
+  #lasagna figure img,
+  #beef figure img,
+  #steak figure img {
     width: 58%;
     display: flex;
     align-self: center;
   }
 
-  #reg-taco .dish-details,
-  #trio-extreme .dish-details,
-  #taco-salad .dish-details {
+  #shrimp .dish-details,
+  #pesto .dish-details,
+  #beef .dish-details {
     display: flex;
     justify-content: center;
     align-content: flex-start;
   }
 
-  #taco-trio .dish-details,
-  #trio-wrap .dish-details {
+  #palabok .dish-details,
+  #lasagna .dish-details,
+  #steak .dish-details {
     display: flex;
     justify-content: center;
     align-content: flex-end;
@@ -1698,69 +1724,71 @@ textarea {
     opacity: 0.6;
   }
 
-  #beans,
-  #trio-extreme,
-  #trio-wrap,
-  #taco-salad {
+  #beans, 
+  #egg,
+  #baja,
+  #cheese,
+  #pico, 
+  #rice,
+  #tortillas {
     margin: 20px 0px;
   }
 
-  #taco-trio {
-    margin: -45px 0px 33px 0px;
-  }
-
-  #trio-wrap {
-    margin: 38px 0px;
-  }
-
-  #beans,
-  #trio-extreme,
-  #taco-salad {
+  #egg,
+  #cheese,
+  #rice {
     display: flex;
     flex-flow: row;
   }
 
-  #taco-trio,
-  #trio-wrap {
+  #beans,
+  #baja,
+  #pico,
+  #tortillas {
     display: flex;
     flex-flow: row-reverse;
   }
 
   #beans figure,
   #beans .dish-details,
-  #taco-trio figure,
-  #taco-trio .dish-details,
-  #trio-extreme figure,
-  #trio-extreme .dish-details,
-  #trio-wrap figure,
-  #trio-wrap .dish-details,
-  #taco-salad figure,
-  #taco-salad .dish-details {
+  #egg figure,
+  #egg .dish-details,
+  #baja figure,
+  #baja .dish-details,#cheese figure,
+  #cheese .dish-details,
+  #pico figure,
+  #pico .dish-details,
+  #rice figure,
+  #rice .dish-details,
+  #tortillas figure,
+  #tortillas .dish-details {
     width: 50%;
     display: flex;
     flex-flow: column wrap;
   }
 
   #beans figure img,
-  #taco-trio figure img,
-  #trio-extreme figure img,
-  #trio-wrap figure img,
-  #taco-salad figure img {
+  #egg figure img,
+  #baja figure img,#cheese figure img,
+  #pico figure img,
+  #rice figure img,#tortillas figure img {
     width: 58%;
     display: flex;
     align-self: center;
   }
 
-  #beans .dish-details,
-  #trio-extreme .dish-details,
-  #taco-salad .dish-details {
+  #egg .dish-details,
+  #cheese .dish-details,
+  #rice .dish-details {
     display: flex;
     justify-content: center;
     align-content: flex-start;
   }
 
-  #taco-trio .dish-details,
-  #trio-wrap .dish-details {
+  #beans .dish-details,
+  #baja .dish-details,
+  #pico .dish-details,
+  #tortillas .dish-details {
     display: flex;
     justify-content: center;
     align-content: flex-end;
