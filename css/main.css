@@ -1639,13 +1639,28 @@ textarea {
     opacity: 0.6;
   }
 
-  #shrimp,
-  #palabok,
-  #pesto,
-  #lasagna,
-  #beef,
+  #shrimp {
+    margin: 46px 0px 20px 0px;
+  }
+
+  #palabok {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #pesto {
+    margin: 46px 0px 20px 0px;
+  }
+
+  #lasagna {
+    margin: 20px 52px 20px 0px;
+  }
+
+  #beef {
+    margin: 43px 0px 20px 0px;
+  }
+
   #steak {
-    margin: 20px 0px;
+    margin: 20px 0px 20px 0px;
   }
 
   #shrimp,
@@ -1682,10 +1697,15 @@ textarea {
   #shrimp figure img,
   #palabok figure img,
   #pesto figure img,
-  #lasagna figure img,
   #beef figure img,
   #steak figure img {
     width: 58%;
+    display: flex;
+    align-self: center;
+  }
+
+  #lasagna figure img {
+    width: 76%;
     display: flex;
     align-self: center;
   }
@@ -1724,14 +1744,32 @@ textarea {
     opacity: 0.6;
   }
 
-  #beans, 
-  #egg,
-  #baja,
-  #cheese,
-  #pico, 
-  #rice,
+  #beans {
+    margin: 27px 70px 20px 0px;
+  }
+
+  #egg {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #baja {
+    margin: -22px 159px 20px 0px;
+  }
+
+  #cheese {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #pico {
+    margin: -25px 35px 20px 0px;
+  }
+
+  #rice {
+    margin: 20px 0px 20px 0px;
+  }
+
   #tortillas {
-    margin: 20px 0px;
+    margin: 20px 0px 20px 0px;
   }
 
   #egg,
@@ -1767,12 +1805,23 @@ textarea {
     flex-flow: column wrap;
   }
 
-  #beans figure img,
   #egg figure img,
-  #baja figure img,#cheese figure img,
+  #cheese figure img,
   #pico figure img,
   #rice figure img,#tortillas figure img {
     width: 58%;
+    display: flex;
+    align-self: center;
+  }
+
+  #beans figure img {
+    width: 68%;
+    display: flex;
+    align-self: center;
+  }
+
+  #baja figure img {
+    width: 95%;
     display: flex;
     align-self: center;
   }
@@ -1792,6 +1841,12 @@ textarea {
     display: flex;
     justify-content: center;
     align-content: flex-end;
+  }
+
+  #baja .dish-details {
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
 
