@@ -807,12 +807,12 @@ textarea {
 
   /* Header Area */
 
-  #pad .dish-title {
-    margin: 30px 30px 15px;
+  #trio .dish-title {
+    margin: 30px 75px 15px;
   }
 
-  #pad .dish-title h5 {
-    margin-left: 0px;
+  #trio .dish-title h5 {
+    margin-left: -10px;
   }
 
 
@@ -821,12 +821,16 @@ textarea {
 
   /* Header Area */
 
-  #pad .dish-title {
-    margin: 30px 30px 15px;
+  #xtrm .dish-title {
+    margin: 30px 47px 15px;
   }
 
-  #pad .dish-title h5 {
-    margin-left: 0px;
+  #xtrm .dish-title h1 {
+    text-align: center;
+  }
+
+  #xtrm .dish-title h5 {
+    margin-left: 18px;
   }
 
 
@@ -835,12 +839,12 @@ textarea {
 
   /* Header Area */
 
-  #pad .dish-title {
-    margin: 30px 30px 15px;
+  #wrap .dish-title {
+    margin: 30px 75px 15px;
   }
 
-  #pad .dish-title h5 {
-    margin-left: 0px;
+  #wrap .dish-title h5 {
+    margin-left: -4px;
   }
 
 
@@ -849,12 +853,12 @@ textarea {
 
   /* Header Area */
 
-  #pad .dish-title {
-    margin: 30px 30px 15px;
+  #slad .dish-title {
+    margin: 30px 67px 15px;
   }
 
-  #pad .dish-title h5 {
-    margin-left: 0px;
+  #slad .dish-title h5 {
+    margin-left: -3px;
   }
 
 
