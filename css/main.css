@@ -782,7 +782,7 @@ textarea {
   }
 
   .dish-bottom .hero-area .order-btn {
-    margin: 20px 0;
+    margin: 20px 0px 40px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -855,11 +855,31 @@ textarea {
 
   /* Header Area */
 
+  #pad .dish-title {
+    margin: 30px 30px 15px;
+  }
+
+  #pad .dish-title h5 {
+    margin-left: 0px;
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Palabok --- */
 
   /* Header Area */
+
+  #plbok .dish-title {
+    margin: 30px 30px 15px;
+  }
+
+  #plbok .dish-title h1 {
+    margin-left: 20px;
+  }
+
+  #plbok .dish-title h5 {
+    margin-left: 0px;
+  }
 
 
 
@@ -867,11 +887,39 @@ textarea {
 
   /* Header Area */
 
+  #crab .dish-title {
+    margin: 30px 0px 15px -23px;
+  }
+
+  #crab .dish-title h5 {
+    margin-left: 42px;
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Lasagna --- */
 
   /* Header Area */
+
+  #lsgna .dish-title {
+    margin: 30px 50px 15px;
+  }
+  
+  
+  #lsgna .dish-title h5 {
+    margin-left: -18px;
+  }
+
+
+  /* Main Area */
+
+  #lsgna-btm .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
+  
+  #lsgna-btm .dish-bottom .hero-area #glass-bkg .dish-image figure {
+    margin-top: -63px;
+  }
 
 
 
@@ -879,11 +927,47 @@ textarea {
 
   /* Header Area */
 
+  #roast .dish-title {
+    margin: 30px 72px 15px;
+  }
+
+  #roast .dish-title h5 {
+    margin-left: -34px;
+  }
+
+  /* Main Area */
+
+  #roast-btm .dish-bottom .hero-area {
+    margin-top: 73px;
+  }
+  
+  #roast-btm .dish-bottom .hero-area #glass-bkg .dish-image figure {
+    margin-top: -63px;
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Steak --- */
 
   /* Header Area */
+
+  #pork .dish-title {
+    margin: 30px 66px 15px;
+  }
+
+  #pork .dish-title h5 {
+    margin-left: -34px;
+  }
+
+  /* Main Area */
+
+  #pork-btm .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
+  
+  #pork-btm .dish-bottom .hero-area #glass-bkg .dish-image figure {
+    margin-top: -80px;
+  }
 
 
 
@@ -1810,6 +1894,10 @@ textarea {
     display: flex;
     justify-content: center;
     align-content: flex-end;
+  }
+
+  #pesto .dish-details p {
+    text-align: center;
   }
 
 
