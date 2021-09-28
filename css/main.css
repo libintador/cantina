@@ -807,11 +807,27 @@ textarea {
 
   /* Header Area */
 
+  #pad .dish-title {
+    margin: 30px 30px 15px;
+  }
+
+  #pad .dish-title h5 {
+    margin-left: 0px;
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Extreme --- */
 
   /* Header Area */
+
+  #pad .dish-title {
+    margin: 30px 30px 15px;
+  }
+
+  #pad .dish-title h5 {
+    margin-left: 0px;
+  }
 
 
 
@@ -819,11 +835,27 @@ textarea {
 
   /* Header Area */
 
+  #pad .dish-title {
+    margin: 30px 30px 15px;
+  }
+
+  #pad .dish-title h5 {
+    margin-left: 0px;
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Salad --- */
 
   /* Header Area */
+
+  #pad .dish-title {
+    margin: 30px 30px 15px;
+  }
+
+  #pad .dish-title h5 {
+    margin-left: 0px;
+  }
 
 
 
@@ -831,11 +863,39 @@ textarea {
 
   /* Header Area */
 
+  #burr .dish-title {
+    margin: 30px 60px 15px;
+  }
+
+  #burr .dish-title h5 {
+    margin-left: -6px;
+  }
+
+  /* Main Area */
+
+  #burr-btm .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Nachos --- */
 
   /* Header Area */
+
+  #nach .dish-title {
+    margin: 30px 45px 15px;
+  }
+
+  #nach .dish-title h1 {
+    margin-left: 15px;
+  }
+
+  /* Main Area */
+
+  #nach-btm .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
 
 
 
@@ -843,11 +903,41 @@ textarea {
 
   /* Header Area */
 
+  #ques .dish-title {
+    margin: 30px 37px 15px;
+  }
+
+  #ques .dish-title h5 {
+    margin-left: 17px;
+  }
+
+  /* Main Area */
+
+  #ques-btm .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
+
+  #ques-btm .dish-bottom .hero-area #glass-bkg {
+    margin-top: -19px;
+  }
+  
+  #ques-btm .dish-bottom .hero-area #glass-bkg .dish-image figure {
+    /*margin-top: -63px;*/
+  }
+
 
 
 /* --- Mobile Styles - Dish-Front-Mex-Rice --- */
 
   /* Header Area */
+
+  #rbowl .dish-title {
+    margin: 30px 42px 15px;
+  }
+
+  #rbowl .dish-title h5 {
+    margin-left: 10px;
+  }
 
 
 
