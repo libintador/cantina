@@ -1351,13 +1351,83 @@ textarea {
 
   /* Header Area */
 
-  #slad-bck .dish-title {
-    margin: 30px 66px 15px;
+  #ques-bck .dish-title {
+    margin: 30px 35px 15px;
   }
 
-  #slad-bck .dish-title h5 {
-    margin-left: 0px;
+  #ques-bck .dish-title h5 {
+    margin-left: 20px;
   }
+
+  /* Main Area */
+
+  #ques-btm-bck .hero-area {
+    margin-top: 106px;
+  }
+  
+  #ques-btm-bck .dish-copy-back {
+    margin-top: -15px;
+  }
+
+  #ques-btm-bck .dish-copy-back h4 {
+    margin: 8px 0px;
+  }
+  
+  #ques-btm-bck .scheese {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  #ques-btm-bck .scheese figure {
+    width: 30%;
+  }
+
+  #ques-btm-bck .pork figure {
+    width: 70%;
+  }
+
+  #ques-btm-bck .beef figure {
+    width: 70%;
+  }
+
+  #ques-btm-bck .chicken figure {
+    width: 70%;
+  }
+
+  #ques-btm-bck .beans figure {
+    width: 70%;
+  }
+
+  #ques-btm-bck .chodobo .chick,
+  #ques-btm-bck .chodobo .saus {
+    width: 36%;
+  }
+  
+  #ques-btm-bck .top-set h4 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #8C3F2D;
+    text-transform: lowercase;
+    margin: 10px 0px;
+  }
+
+  #ques-btm-bck hr.stuffing-top {
+    width: 60%;
+  }
+
+  #ques-btm-bck .mid-set,
+  #ques-btm-bck .btm-set {
+    margin: 20px 0px;
+  }
+
+  #ques-btm-bck .mid-set h4,
+  #ques-btm-bck .btm-set h4 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
 
   /* --- Mobile Styles - Map-End  --- */
 
