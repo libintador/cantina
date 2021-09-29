@@ -803,7 +803,7 @@ textarea {
   }
 
 
-/* --- Mobile Styles - Dish-Front-Trio --- */
+  /* --- Mobile Styles - Dish-Front-Trio --- */
 
   /* Header Area */
 
@@ -817,7 +817,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Extreme --- */
+  /* --- Mobile Styles - Dish-Front-Extreme --- */
 
   /* Header Area */
 
@@ -835,7 +835,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Wrap --- */
+  /* --- Mobile Styles - Dish-Front-Wrap --- */
 
   /* Header Area */
 
@@ -849,7 +849,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Salad --- */
+  /* --- Mobile Styles - Dish-Front-Salad --- */
 
   /* Header Area */
 
@@ -863,7 +863,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Burrito --- */
+  /* --- Mobile Styles - Dish-Front-Burrito --- */
 
   /* Header Area */
 
@@ -883,7 +883,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Nachos --- */
+  /* --- Mobile Styles - Dish-Front-Nachos --- */
 
   /* Header Area */
 
@@ -903,7 +903,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Quesadilla --- */
+  /* --- Mobile Styles - Dish-Front-Quesadilla --- */
 
   /* Header Area */
 
@@ -931,7 +931,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Mex-Rice --- */
+  /* --- Mobile Styles - Dish-Front-Mex-Rice --- */
 
   /* Header Area */
 
@@ -945,7 +945,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Shrimp --- */
+  /* --- Mobile Styles - Dish-Front-Shrimp --- */
 
   /* Header Area */
 
@@ -959,7 +959,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Palabok --- */
+  /* --- Mobile Styles - Dish-Front-Palabok --- */
 
   /* Header Area */
 
@@ -977,7 +977,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Pesto --- */
+  /* --- Mobile Styles - Dish-Front-Pesto --- */
 
   /* Header Area */
 
@@ -991,7 +991,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Lasagna --- */
+  /* --- Mobile Styles - Dish-Front-Lasagna --- */
 
   /* Header Area */
 
@@ -1017,7 +1017,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Beef --- */
+  /* --- Mobile Styles - Dish-Front-Beef --- */
 
   /* Header Area */
 
@@ -1041,7 +1041,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Front-Steak --- */
+  /* --- Mobile Styles - Dish-Front-Steak --- */
 
   /* Header Area */
 
@@ -1065,7 +1065,7 @@ textarea {
 
 
 
-/* --- Mobile Styles - Dish-Back-Taco --- */
+  /* --- Mobile Styles - Dish-Back-Taco --- */
 
   /* Hero Area */
 
@@ -1179,6 +1179,184 @@ textarea {
   .btm-set .btm-images {
     display: flex;
     justify-content: center;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Taco-Trio --- */
+
+  /* Header Area */
+
+  #trio-bck .dish-title {
+    margin: 30px 76px 15px;
+  }
+
+  #trio-bck .dish-title h5 {
+    margin-left: -8px;
+  }
+
+  /* Main Area */
+
+  #trio-btm-bck .chodobo p {
+    margin-top: 15px;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Trio-Extreme --- */
+
+  /* Header Area */
+
+  #xtrm-bck .dish-title {
+    margin: 30px 47px 15px;
+  }
+
+  #xtrm-bck .dish-title h5 {
+    margin-left: 18px;
+  }
+
+  /* Main Area */
+
+  #xtrm-btm-bck .pork,
+  #xtrm-btm-bck .beef,
+  #xtrm-btm-bck .chicken,
+  #xtrm-btm-bck .beans {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+  }
+
+  #xtrm-btm-bck .pork p, 
+  #xtrm-btm-bck .beef p,
+  #xtrm-btm-bck .chicken p,
+  #xtrm-btm-bck .beans p {
+    display: flex;
+  } 
+
+  #xtrm-btm-bck .chicken p {
+    margin: 0;
+  }
+
+  #xtrm-btm-bck .pork figure,
+  #xtrm-btm-bck .pork p,
+  #xtrm-btm-bck .beef figure,
+  #xtrm-btm-bck .beef p,
+  #xtrm-btm-bck .chicken figure,
+  #xtrm-btm-bck .chicken p,
+  #xtrm-btm-bck .beans figure,
+  #xtrm-btm-bck .beans p {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 5px;
+  }
+
+  #xtrm-btm-bck .extra p {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #xtrm-btm-bck hr.stuffing-top {
+    width: 87%;
+    margin: 0 20px;
+  }
+
+  #xtrm-btm-bck .dish-bottom .dish-copy-back .btm-set h4 {
+    margin: 10px 2px 0px;
+  }
+
+  #xtrm-btm-bck .btm-set .btm-images {
+    display: flex;
+    margin: 15px 0;
+  }
+
+  #xtrm-btm-bck .extra #puree,
+  #xtrm-btm-bck .extra #fegg,
+  #xtrm-btm-bck .extra #tort {
+    margin: 0 5px;
+  }
+
+  #xtrm-btm-bck .extra #puree {
+    width: 20%;
+  }
+
+  #xtrm-btm-bck .extra #fegg {
+    width: 23%;
+  }
+
+  #xtrm-btm-bck .extra #tort {
+    width: 21%;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Trio-Wrap --- */
+
+  /* Header Area */
+
+  #wrap-bck .dish-title {
+    margin: 30px 72px 15px;
+  }
+
+  #wrap-bck .dish-title h5 {
+    margin-left: -4px;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Taco-Salad --- */
+
+  /* Header Area */
+
+  #slad-bck .dish-title {
+    margin: 30px 71px 15px;
+  }
+
+  #slad-bck .dish-title h5 {
+    margin-left: -2px;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Burrito --- */
+
+  /* Header Area */
+
+  #burr-bck .dish-title {
+    margin: 30px 60px 15px;
+  }
+
+  #burr-bck .dish-title h5 {
+    margin-left: -6px;
+  }
+
+  /* Main Area */
+
+  #burr-btm-bck .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Nachos --- */
+
+  /* Header Area */
+
+  #nach-bck .dish-title {
+    margin: 30px 58px 15px;
+  }
+
+  #nach-bck .dish-title h5 {
+    margin-left: -3px;
+  }
+
+  /* Main Area */
+
+  #nach-btm-bck .dish-bottom .hero-area {
+    margin-top: 106px;
+  }
+
+  /* --- Mobile Styles - Dish-Back-Quesadilla --- */
+
+  /* Header Area */
+
+  #slad-bck .dish-title {
+    margin: 30px 66px 15px;
+  }
+
+  #slad-bck .dish-title h5 {
+    margin-left: 0px;
   }
 
   /* --- Mobile Styles - Map-End  --- */
