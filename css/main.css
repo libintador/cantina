@@ -1571,6 +1571,7 @@ textarea {
   .menu-logo figure img {
     display: flex;
   }
+
   
   /* Dishes */
   
@@ -2375,6 +2376,10 @@ textarea {
     width: 375px;
   }
 
+  #about .content-wrapper {
+    
+  }
+
   #about .hero-area {
     display: flex;
     justify-content: center;
@@ -2382,8 +2387,8 @@ textarea {
     background: url('../img/background/bg-box.png');
     background-size: 327px 1997px;
     background-repeat: no-repeat;
-    background-position: 24px 25px;
-    height: 1454px;
+    background-position: 30px 25px;
+    height: 1997px;
     
   }
 
@@ -2486,10 +2491,21 @@ textarea {
     margin: 20px 0px;
   }
   
-  .about-copy-top p {
+  .about-copy-top p,
+  /*.about-copy-mid p,
+  .about-copy-btm p*/ {
     font-size: 15px;
     line-height: 2;
     letter-spacing: 1px;
+  }
+
+  .sum h2 {
+    font-family: 'Bree', sans-serif;
+    color: #AB4F40;
+    text-align: center;
+    font-size: 18px;
+    width: 95%;
+    margin: 25px 0;
   }
 
 
