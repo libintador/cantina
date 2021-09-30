@@ -1558,7 +1558,8 @@ textarea {
   }
 
   .menu-logo #logo {
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
     
   }
 
@@ -2040,7 +2041,6 @@ textarea {
     background-repeat: no-repeat;
     background-position: -25px -25px;
     margin-top: 0px;
-    
   }
   
   
@@ -2369,40 +2369,52 @@ textarea {
 /* --- Mobile Styles - About-End  --- */
 
   body#about {
-    background: url('../img/background/bg-about.png') center no-repeat #231F20;
+    background: url('../img/background/bg-mex-ptrn.jpeg') center repeat #231F20;
     background-size: contain;
     height: 2045px;
     width: 375px;
   }
 
-  /* Header Area */
-
-  .about-end header .content-wrapper {
+  #about .hero-area {
     display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 50px;
-    margin: 15px;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/background/bg-box.png');
+    background-size: 327px 1997px;
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+    height: 1454px;
+    
   }
 
-  .about-end header {
+  /* Header Area */
+
+  .about-top header .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 375px;
+    height: 50px;
+    margin: 15px 36px;
+  }
+
+  .about-top header {
     width: 100%;
-    background-color: #8C3F2D;
+    background-color: #AB4F40;
     margin: 45px 0px;
     height: 50px;
   }
 
-  .about-end header a {
+  .about-top header a {
     text-decoration: none;
   }
 
-  .about-end header .nav-btn {
+  .about-top header .nav-btn {
     display: flex;
     width: 30%;
-    margin: 5px 0px;
+    margin: 5px -20px;
   }
 
-  .about-end header .nav-btn .dot {
+  .about-top header .nav-btn .dot {
     height: 40px;
     width: 40px;
     background-color: rgb(94, 92, 92, 0.6);
@@ -2414,7 +2426,7 @@ textarea {
     display: flex;
   }
 
-  .about-end header .nav-btn .dot figure {
+  .about-top header .nav-btn .dot figure {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -2425,12 +2437,12 @@ textarea {
     color: #797B3A;
   }
 
-  .about-end header .contact-title {
+  .about-top header .about-title {
     display: flex;
-    margin: 0px 60px;
+    margin: 0px 84px;
   }
 
-  .about-end header .contact-title h1 {
+  .about-top header .about-title h1 {
     display: flex;
     font-weight: bold;
     text-transform: uppercase;
@@ -2438,10 +2450,47 @@ textarea {
     color: #797B3A;
     line-height: 24px;
     letter-spacing: 5px;
-    margin: 15px;
+    margin: 15px 24px;
   }
 
+  /* Main Area */
+
+  #about main {
+    display: flex;
+  }
+
+  .about-bottom {
+    width: 58%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px 58px;
+  }
+
+  .about-bottom #logo {
+    display: flex;
+    justify-content: center;
+    margin: 0px 15px;
+  }
+
+  #logo figure {
+    display: flex;
+    width: 45%;
+  }
+
+  #logo figure img {
+    width: 100%;
+  }
+
+  .about-copy-top {
+    display: flex;
+    margin: 20px 0px;
+  }
   
+  .about-copy-top p {
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
 
 
 
