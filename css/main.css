@@ -2370,14 +2370,14 @@ textarea {
 /* --- Mobile Styles - About-End  --- */
 
   body#about {
-    background: url('../img/background/bg-mex-ptrn.jpeg') center repeat #231F20;
-    background-size: contain;
-    height: 2045px;
-    width: 375px;
+    background: url('../img/background/bg-mex-ptrn-long.png');
+    background-size: 375px 1960px;
+    background-repeat: no-repeat;
+    
   }
 
   #about .content-wrapper {
-    
+
   }
 
   #about .hero-area {
@@ -2387,8 +2387,8 @@ textarea {
     background: url('../img/background/bg-box.png');
     background-size: 327px 1997px;
     background-repeat: no-repeat;
-    background-position: 30px 25px;
-    height: 1997px;
+    background-position: 25px 25px;
+    height: 1930px;
     
   }
 
@@ -2396,10 +2396,10 @@ textarea {
 
   .about-top header .content-wrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 375px;
     height: 50px;
-    margin: 15px 36px;
+    margin: 15px 0px;
   }
 
   .about-top header {
@@ -2416,7 +2416,7 @@ textarea {
   .about-top header .nav-btn {
     display: flex;
     width: 30%;
-    margin: 5px -20px;
+    margin: 5px -15px;
   }
 
   .about-top header .nav-btn .dot {
@@ -2444,7 +2444,7 @@ textarea {
 
   .about-top header .about-title {
     display: flex;
-    margin: 0px 84px;
+    margin: 0px 80px;
   }
 
   .about-top header .about-title h1 {
@@ -2465,7 +2465,7 @@ textarea {
   }
 
   .about-bottom {
-    width: 58%;
+    width: 70%;
     display: flex;
     flex-flow: row wrap;
     margin: 0px 58px;
@@ -2477,7 +2477,7 @@ textarea {
     margin: 0px 15px;
   }
 
-  #logo figure {
+  .about-bottom #logo figure {
     display: flex;
     width: 45%;
   }
@@ -2488,15 +2488,25 @@ textarea {
 
   .about-copy-top {
     display: flex;
-    margin: 20px 0px;
+    
   }
   
-  .about-copy-top p,
-  /*.about-copy-mid p,
-  .about-copy-btm p*/ {
+  .about-bottom .about-copy-top p,
+  .about-bottom .about-copy-mid p,
+  .about-bottom .about-copy-btm p {
     font-size: 15px;
     line-height: 2;
     letter-spacing: 1px;
+    margin: 30px 0;
+  }
+
+  #chef {
+    width: 60%;
+    margin: 105px 0px -267px 123px;
+  }
+
+  #chef img {
+    border-radius: 50%;
   }
 
   .sum h2 {
@@ -2505,7 +2515,50 @@ textarea {
     text-align: center;
     font-size: 18px;
     width: 95%;
-    margin: 25px 0;
+    margin: 0px 7px;
+  }
+
+  #insta-tag h3 {
+    color: #BED38E;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 20px 7px;
+  }
+
+  .instagram-slider .content-wrapper {
+    display: flex;
+    margin: 0px -22px;
+  }
+
+  .instagram-slider figure {
+    width: 91px;
+    height: 88px;
+    margin: 5px;
+  }
+
+  #more-btn {
+    margin: 25px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #more-btn button {
+    color: #AB4F40;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 12px 33px;
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
+  }
+
+  #somb {
+    width: 35%;
+    margin: 0px 90px;
+  }
+
+  #about .about-bottom footer {
+    margin: 11px 30px;
   }
 
 
