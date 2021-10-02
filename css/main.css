@@ -93,19 +93,18 @@ textarea {
   }
 
   body {
-    color: #F0EBD7;
-    font-family: 'Basic Sans', sans-serif;
-    font-size: 16px;
-    display: flex;
     background: url('../img/background/bg-home.png') center no-repeat #231F20;
     background-size: contain;
+    color: #F0EBD7;
+    display: flex;
+    font-family: 'Basic Sans', sans-serif;
+    font-size: 16px;
     height: 812px;
     width: 375px;
   }
 
   img {
     width: 100%;
-    
   }
 
   figure {
@@ -133,65 +132,61 @@ textarea {
   .brand {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
     margin: 40px 0px;
+    width: 100%;
   }
 
   .brand h3 {
     color: #797B3A;
+    display: flex;
+    justify-content: center;
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 6px;
     line-height: 22px;
     margin: 10px 0px;
-    display: flex;
-    justify-content: center;
-    
     width: 100%;
   }
 
   .brand p {
     color: #BED38E;
+    display: flex;
+    justify-content: center;
     font-family: 'Continuo', sans-serif;
     font-size: 60px;
     letter-spacing: 10px;
     line-height: 77px;
-    display: flex;
-    justify-content: center;
     margin: 0px;
     width: 100%;
   }
 
   .brand h2 {
     color: #BED38E;
-    opacity: 0.72;
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 3px;
     line-height: 20px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
     margin: 10px 50px 0 50px;
+    opacity: 0.72;
     text-align: center;
+    text-transform: uppercase;
   }
 
   header figure {
-    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     height: 0px;
     margin: 0px 120px 30px 120px;
+    width: 35%;
   }
 
   /* Hero Area */
 
   .home-end .hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
     background: 
       /* top, transparent black */ 
       linear-gradient(
@@ -200,46 +195,49 @@ textarea {
     ),
       /* bottom, image */
       url('../img/layout/layout-hero.png');
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: 0px 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
     height: 533px;
   }
 
   .home-end .hero-area .content-wrapper {
     display: flex;
     justify-content: center;
-    min-height: 0;
     flex-flow: row wrap;
+    min-height: 0;
   }
 
   .home-end .hero-area .intro {
-    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin: 5px 50px 0 50px;
     line-height: 25px;  
+    margin: 5px 50px 0 50px;
+    text-align: center;
+    width: 70%;
   }
 
   .home-end .hero-area .nav button {
-    width: 240px;
-    height: 46px;
     display: flex;
     justify-content: center;
+    height: 46px;
     margin: 30px;
+    width: 240px;
   }
 
   .home-end .hero-area .nav button a {
     color: #F0EBD7;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 35px;
+    margin: 5px 5px 5px 5px;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 35px;
-    letter-spacing: 4px;
-    font-weight: bold;
-    font-size: 14px;
-    margin: 5px 5px 5px 5px;
   }
 
   .home-end .hero-area .about-btn {
@@ -258,22 +256,18 @@ textarea {
   }
 
   .hero-area .msgr-btn {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-right: 35px;
+    width: 100%;
   }
 
   .hero-area .msgr-btn .dot {
-    height: 25px;
-    width: 25px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-  }
-
-  .hero-area .msgr-btn figure {
-
+    height: 25px;
+    width: 25px;
   }
 
   .hero-area .msgr-btn figure img {
@@ -315,9 +309,9 @@ textarea {
 
   .nav-top header .content-wrapper {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     min-height: 0;
-    flex-flow: row wrap;
   }
 
   .nav-top header a {
@@ -327,16 +321,16 @@ textarea {
   
   .nav-top header .close-btn {
     display: flex;
-    width: 100%;
     margin: 50px 15px 0px 0px;
+    width: 100%;
   }
 
   header .close-btn span {
-    height: 40px;
-    width: 40px;
     background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
+    height: 40px;
+    width: 40px;
   }
 
   header .close-btn i {
@@ -344,41 +338,41 @@ textarea {
   }
 
   header .close-btn .dot figure {
-    width: 35%;
+    color: #797B3A;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     height: 28px;
     margin: 7px 13px;
-    color: #797B3A;
+    width: 35%;
   }
 
   .nav-top header .nav-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 290px;
     flex-flow: row wrap;
+    width: 290px;
   }
 
   .nav-top header .nav-main button {
-    width: 240px;
-    height: 46px;
     display: flex;
     justify-content: center;
+    height: 46px;
     margin: 15px;
+    width: 240px;
   }
 
   .nav-top header .nav-main button a {
     color: #F0EBD7;
-    text-decoration: none;
-    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 35px;
     letter-spacing: 4px;
-    font-weight: bold;
-    font-size: 14px;
     margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 
   header .about-btn {
@@ -400,9 +394,6 @@ textarea {
   /* Hero Area */
 
   .nav-btm .hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
     background: 
       /* top, transparent black */ 
       linear-gradient(
@@ -411,40 +402,39 @@ textarea {
     ),
       /* bottom, image */
       url('../img/layout/layout-hero.png');
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
     height: 518px;
     margin-top: -24px;
   }
 
   .nav-btm .hero-area figure {
-    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     height: 0px;
     margin: 30px 120px 30px 120px;
+    width: 35%;
   }
 
   .hero-area .msgr-btn {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-right: 35px;
+    width: 100%;
   }
 
   .hero-area .msgr-btn .dot {
-    height: 25px;
-    width: 25px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-  }
-
-  .hero-area .msgr-btn figure {
-
+    height: 25px;
+    width: 25px;
   }
 
   .hero-area .msgr-btn figure img {
@@ -459,16 +449,16 @@ textarea {
   .contact-top header .content-wrapper {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
     height: 50px;
     margin: 15px;
+    width: 100%;
   }
 
   .contact-top header {
-    width: 100%;
     background-color: #8C3F2D;
-    margin: 45px 0px;
     height: 50px;
+    margin: 45px 0px;
+    width: 100%;
   }
 
   .contact-top header a {
@@ -477,16 +467,16 @@ textarea {
 
   .contact-top header .nav-btn {
     display: flex;
-    width: 30%;
     margin: 5px 0px;
+    width: 30%;
   }
 
   .contact-top header .nav-btn .dot {
-    height: 40px;
-    width: 40px;
     background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
+    height: 40px;
+    width: 40px;
   }
 
   header .nav-btn .dot i {
@@ -494,14 +484,14 @@ textarea {
   }
 
   .contact-top header .nav-btn .dot figure {
-    width: 35%;
+    color: #797B3A;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     height: 28px;
     margin: 7px 13px;
-    color: #797B3A;
+    width: 35%;
   }
 
   .contact-top header .contact-title {
@@ -510,26 +500,26 @@ textarea {
   }
 
   .contact-top header .contact-title h1 {
-    display: flex;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 12px;
     color: #797B3A;
-    line-height: 24px;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
     letter-spacing: 5px;
+    line-height: 24px;
     margin: 15px 25px;
+    text-transform: uppercase;
   }
 
   /* Hero Area */ 
 
   .contact-bottom .hero-area {
+    background: url('../img/layout/layout-skull.png');
+    background-position: 23px 0px;
+    background-repeat: no-repeat;
+    background-size: 329px 629px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('../img/layout/layout-skull.png');
-    background-size: 329px 629px;
-    background-repeat: no-repeat;
-    background-position: 23px 0px;
     height: 629px;
   }
   
@@ -537,21 +527,20 @@ textarea {
     color: #43544A;
     font-size: 26px;
     font-weight: normal;
-    margin-top: 35px;
     margin-left: -7px;
+    margin-top: 35px;
   }
 
   .contact-card {
+    background-color: rgb(45, 39, 41, 0.8);
+    border: none;
     display: flex;
     align-content: center;
     justify-content: center;
-    width: 70%;
     flex-flow: row wrap;
-    background-color: rgb(45, 39, 41, 0.8);
-    border: none;
-    align-content: center;
-    margin-top: -126px;
     margin-left: -7px;
+    margin-top: -126px;
+    width: 70%;
   }
 
   .contact-card .content-wrapper {
@@ -563,16 +552,16 @@ textarea {
 
   .contact-card h3 {
     color: #AB4F40;
+    display: flex;
     font-size: 15px;
     letter-spacing: 2px;
     margin: -35px 38px 20px 38px;
-    display: flex;
   }
 
   .contact-card #map-icon a {
     display: flex;
-    width: 15%;
     margin: 0px 114px 0px;
+    width: 15%;
   }
 
   .contact-card .social-icons {
@@ -581,32 +570,24 @@ textarea {
     margin-top: 20px;
   }
 
-  .contact-card #fb {
-    display: flex;
-    width: 15%;
-  }
-
-  .contact-card #fb a {
-    display: flex;
-  }
-
+  .contact-card #fb,
   .contact-card #insta {
     display: flex;
     width: 15%;
   }
 
+  .contact-card #fb a,
   .contact-card #insta a {
     display: flex;
-    
   }
 
   .contact-card p {
     display: flex;
-    width: 100%;
     justify-content: center;
     font-size: 15px;
-    margin-top: 18px;
     margin-bottom: 0px;
+    margin-top: 18px;
+    width: 100%;
   }
 
   /* Footer */
@@ -640,15 +621,15 @@ textarea {
   }
 
   .dish-top header .content-wrapper {
-    width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    width: 100%;
   }
 
   .dish-top header a {
+    margin: 45px 20px 0px;
     text-decoration: none;
     width: 15%;
-    margin: 45px 20px 0px;
   }
 
   .dish-top .back-btn {
@@ -656,11 +637,11 @@ textarea {
   }
 
   .dish-top .back-btn .dot {
-    height: 40px;
-    width: 40px;
     background-color: rgb(94, 92, 92, 0.5);
     border-radius: 50%;
     display: flex;
+    height: 40px;
+    width: 40px;
   }
 
   .dish-top .back-btn .dot figure {
@@ -677,21 +658,21 @@ textarea {
   }
 
   .dish-top .dish-title h1 {
+    display: flex;
+    justify-content: flex-start;
     font-size: 26px;
     font-weight: normal;
     letter-spacing: 2px;
     line-height: 33px;
-    display: flex;
-    justify-content: flex-start;
     text-align: center;
   }
 
   .dish-top .dish-title h5 {
+    display: flex;
+    justify-content: flex-start;
     font-family: 'Yrsa', sans-serif;
     font-size: 12px;
     letter-spacing: 3px;
-    display: flex;
-    justify-content: flex-start;
     margin: -10px 0px 0px 11px;
   }
 
@@ -699,9 +680,6 @@ textarea {
   /* Hero Area */
 
   .dish-bottom .hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
     background: 
     /* top, transparent black */ 
     linear-gradient(
@@ -710,29 +688,32 @@ textarea {
     ),
       /* bottom, image */
     url('../img/background/small-assets.png');
-    background-size: 446px 616px;
-    background-repeat: no-repeat;
     background-position: -35px 45px;
-    margin-top: 73px;
+    background-repeat: no-repeat;
+    background-size: 446px 616px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
     height: 586px;
+    margin-top: 73px;
   }
 
   .dish-bottom .hero-area a {
-    text-decoration: none;
     color: #F0EBD7;
-    opacity: 0.8;
     display: inline-flex;
     justify-content: center;
+    opacity: 0.8;
+    text-decoration: none;
   }
 
   .dish-bottom .hero-area #glass-bkg {
+    background-color: rgb(94, 92, 92, 0.5);
+    background-size: 310px 486px;
+    border: none;
     display: flex;
     justify-content: center;
-    width: 80%;
     flex-flow: row wrap;
-    background-color: rgb(94, 92, 92, 0.5);
-    border: none;
-    background-size: 310px 486px;
+    width: 80%;
   }
 
   .dish-bottom .hero-area #glass-bkg .dish-image {
@@ -741,18 +722,17 @@ textarea {
   }
 
   .dish-bottom .hero-area #glass-bkg .dish-image figure {
-    width: 54%;
     margin-top: -80px;
+    width: 54%;
   }
 
   .dish-bottom .hero-area .dish-price h2 {
     color: #797B3A;
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     font-size: 22px;
     letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    
   }
 
   .dish-bottom .hero-area .dish-copy-front {
@@ -763,39 +743,39 @@ textarea {
 
   .dish-bottom .hero-area .dish-copy-front h4 {
     color: #E04952;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
     display: flex;
     justify-content: center;
-    width: 100%;
+    font-size: 12px;
+    letter-spacing: 4px;
     margin: 0;
+    width: 100%;
+    text-transform: uppercase;
   }
 
   .dish-bottom .hero-area .dish-copy-front p {
     font-family: 'Yrsa', sans-serif;
     font-size: 15px;
     line-height: 25px;
+    margin: 20px 0;
     opacity: 0.8;
     width: 70%;
-    margin: 20px 0;
   }
 
   .dish-bottom .hero-area .order-btn {
-    margin: 20px 0px 40px;
-    width: 100%;
     display: flex;
     justify-content: center;
+    margin: 20px 0px 40px;
+    width: 100%;
   }
 
   .dish-bottom .hero-area .order-btn button {
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
     color: #AB4F40;
-    text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
     padding: 12px 33px;
-    background-color: rgb(94, 92, 92, 0.5);
-    border: none;
+    text-transform: uppercase;
   }
 
   .dish-bottom .hero-area footer {
@@ -925,11 +905,7 @@ textarea {
     margin-top: -19px;
   }
   
-  #ques-btm .dish-bottom .hero-area #glass-bkg .dish-image figure {
-    /*margin-top: -63px;*/
-  }
-
-
+  
 
   /* --- Mobile Styles - Dish-Front-Mex-Rice --- */
 
@@ -1071,25 +1047,17 @@ textarea {
 
   .dish-bottom .hero-area .dish-copy-back h4 {
     color: #BED38E;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
     display: flex;
     justify-content: center;
-    width: 100%;
+    font-size: 12px;
+    letter-spacing: 4px;
     margin: 8px 0px 4px;
+    text-transform: uppercase;
+    width: 100%;
   }
 
-  .top-set {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .mid-set {
-    display: flex;
-    justify-content: space-around;
-  }
-  
+  .top-set,
+  .mid-set,
   .btm-set {
     display: flex;
     justify-content: space-around;
@@ -1101,29 +1069,13 @@ textarea {
     justify-content: center;
   }
 
-  .pork figure {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .beef figure {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .chicken figure {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-  }
-
+  .pork figure,
+  .beef figure,
+  .chicken figure,
   .beans figure {
-    width: 40%;
     display: flex;
     justify-content: center;
-  
+    width: 40%;
   }
 
   .pork p {
@@ -1160,19 +1112,19 @@ textarea {
     margin: 10px 0px 0px;
   }
 
-  .dish-bottom .dish-copy-back .mid-set h4 {
-    font-weight: bold;
-    font-size: 12px;
-    color: #8C3F2D;
-    text-transform: lowercase;
-    margin: 0px 0px 10px;
-  }
-
+  .dish-bottom .dish-copy-back .mid-set h4,
   .dish-bottom .dish-copy-back .btm-set h4 {
     font-weight: bold;
     font-size: 12px;
     color: #8C3F2D;
     text-transform: lowercase;
+  }
+
+  .dish-bottom .dish-copy-back .mid-set h4 {
+    margin: 0px 0px 10px;
+  }
+
+  .dish-bottom .dish-copy-back .btm-set h4 {
     margin: 3px 2px 0px;
   }
 
@@ -1249,15 +1201,15 @@ textarea {
   }
 
   #xtrm-btm-bck .extra p {
-    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
   }
 
   #xtrm-btm-bck hr.stuffing-top {
-    width: 87%;
     margin: 0 20px;
+    width: 87%;
   }
 
   #xtrm-btm-bck .dish-bottom .dish-copy-back .btm-set h4 {
@@ -1383,18 +1335,9 @@ textarea {
     width: 30%;
   }
 
-  #ques-btm-bck .pork figure {
-    width: 70%;
-  }
-
-  #ques-btm-bck .beef figure {
-    width: 70%;
-  }
-
-  #ques-btm-bck .chicken figure {
-    width: 70%;
-  }
-
+  #ques-btm-bck .pork figure,
+  #ques-btm-bck .beef figure,
+  #ques-btm-bck .chicken figure,
   #ques-btm-bck .beans figure {
     width: 70%;
   }
@@ -1405,11 +1348,11 @@ textarea {
   }
   
   #ques-btm-bck .top-set h4 {
-    font-weight: bold;
-    font-size: 12px;
     color: #8C3F2D;
-    text-transform: lowercase;
+    font-size: 12px;
+    font-weight: bold;
     margin: 10px 0px;
+    text-transform: lowercase;
   }
 
   #ques-btm-bck hr.stuffing-top {
@@ -1423,9 +1366,9 @@ textarea {
 
   #ques-btm-bck .mid-set h4,
   #ques-btm-bck .btm-set h4 {
-    margin: 0;
     display: flex;
     align-items: center;
+    margin: 0;
   }
 
 
@@ -1435,19 +1378,19 @@ textarea {
   /* Map Area */
 
   .map figure {
-    width: 100%;
     height: 0;
-    padding-bottom: 125%;
     overflow: hidden;
+    padding-bottom: 125%;
     position: relative;
+    width: 100%;
   }
 
   .map iframe {
-    width: 100%;
     height: 100%;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    width: 100%;
   }
 
   
@@ -1467,23 +1410,23 @@ textarea {
   }
 
   #egg-fore img {
-    width: 50%;
     display: block;
+    width: 50%;
   }
   
   .menu-offerings header {
-    width: 100%;
     background-color: #43544A;
-    margin-top: -38px;
     height: 50px;
+    margin-top: -38px;
+    width: 100%;
   }
   
   .menu-offerings header .content-wrapper {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
     height: 50px;
     margin: 15px;
+    width: 100%;
   }
 
   .menu-offerings header a {
@@ -1492,16 +1435,16 @@ textarea {
 
   .menu-offerings header .nav-btn {
     display: flex;
-    width: 30%;
     margin: 5px 0px;
+    width: 30%;
   }
 
   .menu-offerings header .nav-btn .dot {
-    height: 40px;
-    width: 40px;
     background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
+    height: 40px;
+    width: 40px;
   }
 
   header .nav-btn .dot i {
@@ -1509,14 +1452,14 @@ textarea {
   }
 
   .menu-offerings header .nav-btn .dot figure {
-    width: 35%;
+    color: #797B3A;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     height: 28px;
     margin: 7px 13px;
-    color: #797B3A;
+    width: 35%;
   }
 
   .menu-offerings header #menu-title {
@@ -1525,14 +1468,14 @@ textarea {
   }
 
   .menu-offerings header #menu-title h1 {
-    display: flex;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 12px;
     color: #797B3A;
-    line-height: 24px;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
     letter-spacing: 5px;
+    line-height: 24px;
     margin: 15px 25px;
+    text-transform: uppercase;
   }
 
   /* Logo */
@@ -1546,11 +1489,10 @@ textarea {
     ),
       /* bottom, image */
     url('../img/background/menu-elements.png');
-    background-size: 423px 1251px;
-    background-repeat: no-repeat;
     background-position: -25px -25px;
+    background-repeat: no-repeat;
+    background-size: 423px 1251px;
     margin-top: 0px;
-    
   }
 
   .menu-logo {
@@ -1560,7 +1502,6 @@ textarea {
   .menu-logo #logo {
     display: flex;
     justify-content: center;
-    
   }
 
   .menu-logo figure {
@@ -1576,13 +1517,13 @@ textarea {
   /* Dishes */
   
   .dishes #search {
+    border: solid #E04952;
     display: flex;
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    padding: 15px;
-    border: solid #E04952;
     margin: 35px 60px;
+    padding: 15px;
   }
 
   #search figure {
@@ -1604,8 +1545,8 @@ textarea {
     display: flex;
     color: #E04952;
     font-size: 14px;
-    text-transform: uppercase;
     letter-spacing: 3px;
+    text-transform: uppercase;
   }
 
   .dish-category {
@@ -1630,13 +1571,12 @@ textarea {
   .add-ons img {
     width: 100%;
     display: flex;
-    
   }
   
   .dish-category a {
-    text-decoration: none;
     display: flex;
     justify-content: center;
+    text-decoration: none;
   }
   
   .dish-category .tacos p,
@@ -1644,12 +1584,12 @@ textarea {
   .dish-category .party-platters p,
   .dish-category .add-ons p {
     color: #F0EBD7;
-    text-transform: capitalize;
     display: flex;
     justify-content: center;
     font-size: 12px;
     letter-spacing: 1px;
     text-align: center;
+    text-transform: capitalize;
   }
 
   .category-title {
@@ -1660,9 +1600,9 @@ textarea {
 
   .category-title h4,
   .category-title h3 {
+    color: #BED38E;
     display: flex;
     justify-content: center; 
-    color: #BED38E;
     letter-spacing: 3px;
     margin: 0px; 
   }
@@ -1670,14 +1610,12 @@ textarea {
   .category-title h4 {
     font-family: 'Yrsa', sans-serif;
     font-size: 12px;
-    
     font-weight: normal;
   }
 
   .category-title h3 {
     font-size: 26px;
     font-weight: bold;
-    
     text-transform: uppercase;
   }
 
@@ -1724,9 +1662,9 @@ textarea {
   #trio-wrap .dish-details,
   #taco-salad figure,
   #taco-salad .dish-details {
-    width: 50%;
     display: flex;
     flex-flow: column wrap;
+    width: 50%;
   }
 
   #reg-taco figure img,
@@ -1734,9 +1672,9 @@ textarea {
   #trio-extreme figure img,
   #trio-wrap figure img,
   #taco-salad figure img {
-    width: 58%;
     display: flex;
     align-self: center;
+    width: 58%;
   }
 
   #reg-taco .dish-details,
@@ -1760,13 +1698,13 @@ textarea {
   }
   
   .dish-details p {
-    text-transform: capitalize;
-    font-size: 12px;
+    color: #F0EBD7;
     display: flex;
     justify-content: center;
+    font-size: 12px;
     letter-spacing: 2px;
-    color: #F0EBD7;
     margin: 3px 0px;
+    text-transform: capitalize;
   }
 
   .dish-details p span {
@@ -1775,72 +1713,68 @@ textarea {
   }
 
   aside {
-    margin: 20px 0;
-    width: 100%;
     display: inline-flex;
     justify-content: flex-end;
+    margin: 20px 0;
+    width: 100%;
   }
 
   aside button {
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
     color: #F0EBD7;
-    text-transform: capitalize;
     font-size: 9px;
     font-weight: bold;
     letter-spacing: 2px;
-    padding: 10px;
-    background-color: rgb(94, 92, 92, 0.5);
-    border: none;
-    transform: rotate(270deg);
     margin: 0px -51px 0px 0px;
+    padding: 10px;
+    text-transform: capitalize;
+    transform: rotate(270deg);
   }
 
   .dish-meme p {
     color: #E04952;
     font-size: 15px;
-    text-align: center;
-    margin: 30px 45px;
-    line-height: 2;
     letter-spacing: 1px;
+    line-height: 2;
+    margin: 30px 45px;
+    text-align: center;
   }
 
   .order {
-    margin: 45px 0;
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    margin: 45px 0;
+    width: 100%;
   }
   
   .order h5 {
     color: #AA182B;
+    display: flex;
+    justify-content: center;
     font-family: 'Bree', sans-serif;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     margin: 0;
+    width: 100%;
   }
 
   .order button {
-    color: #AB4F40;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 15px 33px;
     background-color: rgb(94, 92, 92, 0.5);
     border: none;
-    width: 100%;
+    color: #AB4F40;
+    font-size: 14px;
+    font-weight: bold;
     margin: 23px 75px;
+    padding: 15px 33px;
+    text-transform: uppercase;
+    width: 100%;
   }
 
   #corn {
     margin: -68px 75px;
-  }
-
-  #corn figure {
-
   }
 
   #corn figure img {
@@ -1856,8 +1790,8 @@ textarea {
 
   .faq-line {
     border-top: 2px dotted #797B3A;
-    width: 63%;
     margin: 35px 70px;
+    width: 63%;
   }
 
   .tomatoes {
@@ -1870,18 +1804,18 @@ textarea {
   }
 
   #tom1 {
-    width: 6%;
     margin: -38px 225px 0px 0px;
+    width: 6%;
   }
 
   #tom2 {
-    width: 5%;
     margin: 0px 66px 0px -226px;
+    width: 5%;
   }
 
   #tom3 {
-    width: 7%;
     margin: 63px 139px 0px 0px;
+    width: 7%;
   }
   
   .faq-title {
@@ -1901,16 +1835,15 @@ textarea {
   .faq-title h4 {
     font-family: 'Yrsa', sans-serif;
     font-size: 12px;
-    letter-spacing: 3px;
     font-weight: normal;
+    letter-spacing: 3px;
   }
 
   .faq-title h3 {
     font-size: 26px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
     font-weight: normal;
-    
+    letter-spacing: 3px;
+    text-transform: uppercase;
   }
 
   .faq-intro p {
@@ -1932,8 +1865,8 @@ textarea {
   .line-5 .ans,
   .line-6 .quest,
   .line-6 .ans {
-    padding: 8px;
     margin: 1px 35px;
+    padding: 8px;
   }
 
   .line-1 .quest,
@@ -1942,11 +1875,11 @@ textarea {
   .line-4 .quest,
   .line-5 .quest,
   .line-6 .quest {
-    font-weight: bold;
-    font-size: 12px;
     background-color: rgb(67, 84, 74, 0.8);
     border: none;
     color: rgb(240, 235, 215, 0.7);
+    font-size: 12px;
+    font-weight: bold;
   }
 
   .line-1 .ans,
@@ -1955,10 +1888,10 @@ textarea {
   .line-4 .ans,
   .line-5 .ans,
   .line-6 .ans {
-    color: #2D2729;
-    font-size: 12px;
     background-color: rgb(171, 79, 64, 0.5);
     border: none;
+    color: #2D2729;
+    font-size: 12px;
   }
 
   .back-top,
@@ -1972,8 +1905,8 @@ textarea {
   }
 
   #back2top .chilisaus {
-    width: 13%;
     margin: -25px -11px 0px 0px;
+    width: 13%;
   }
 
   #back2top .backtext {
@@ -1981,8 +1914,8 @@ textarea {
   }
 
   #back2top .chilis {
-    width: 20%;
     margin-top: -15px;
+    width: 20%;
   }
 
   .nachos-btm {
@@ -1995,8 +1928,8 @@ textarea {
   }
 
   #nacho {
-    width: 18%;
     margin: 0px 0px 0px 0px;
+    width: 18%;
   }
 
   #nacho img {
@@ -2004,16 +1937,16 @@ textarea {
   }
 
   #chips {
-    width: 15%;
     margin: -43px 21px 0px -41px;
+    width: 15%;
   }
   #chips img {
     margin: 0px 0px 0px 0px;
   }
 
   #avo {
-    width: 15%;
     margin: 0px 0px 0px 0px;
+    width: 15%;
   }
 
   #avo img {
@@ -2038,9 +1971,9 @@ textarea {
     ),
       /* bottom, image */
     url('../img/background/menu-elements.png');
-    background-size: 423px 1101px;
-    background-repeat: no-repeat;
     background-position: -25px -25px;
+    background-repeat: no-repeat;
+    background-size: 423px 1101px;
     margin-top: 0px;
   }
   
@@ -2059,16 +1992,13 @@ textarea {
     margin: -59px 125px 20px 0px;
   }
 
-  #nachos {
-    margin: 20px 0px 20px 0px;
+  #nachos,
+  #mex-rice {
+    margin: 20px 0px;
   }
 
   #quesadilla {
     margin: 20px 46px 20px 0px;
-  }
-
-  #mex-rice {
-    margin: 20px 0px 20px 0px;
   }
 
   #nachos,
@@ -2091,9 +2021,9 @@ textarea {
   #quesadilla .dish-details,
   #mex-rice figure,
   #mex-rice .dish-details {
-    width: 50%;
     display: flex;
     flex-flow: column wrap;
+    width: 50%;
   }
 
   #burrito figure img,
@@ -2108,16 +2038,13 @@ textarea {
     width: 83%;
   }
 
-  #nachos figure img {
+  #nachos figure img,
+  #mex-rice figure img {
     width: 58%;
   }
 
   #quesadilla figure img {
     width: 60%;
-  }
-
-  #mex-rice figure img {
-    width: 58%;
   }
 
   #nachos .dish-details,
@@ -2152,16 +2079,14 @@ textarea {
     opacity: 0.6;
   }
 
-  #shrimp {
-    margin: 46px 0px 20px 0px;
-  }
-
-  #palabok {
-    margin: 20px 0px 20px 0px;
-  }
-
+  #shrimp,
   #pesto {
     margin: 46px 0px 20px 0px;
+  }
+
+  #palabok,
+  #steak {
+    margin: 20px 0px;
   }
 
   #lasagna {
@@ -2170,10 +2095,6 @@ textarea {
 
   #beef {
     margin: 43px 0px 20px 0px;
-  }
-
-  #steak {
-    margin: 20px 0px 20px 0px;
   }
 
   #shrimp,
@@ -2202,9 +2123,9 @@ textarea {
   #beef .dish-details,
   #steak figure,
   #steak .dish-details {
-    width: 50%;
     display: flex;
     flex-flow: column wrap;
+    width: 50%;
   }
 
   #shrimp figure img,
@@ -2212,15 +2133,15 @@ textarea {
   #pesto figure img,
   #beef figure img,
   #steak figure img {
-    width: 58%;
     display: flex;
     align-self: center;
+    width: 58%;
   }
 
   #lasagna figure img {
-    width: 76%;
     display: flex;
     align-self: center;
+    width: 76%;
   }
 
   #shrimp .dish-details,
@@ -2265,28 +2186,19 @@ textarea {
     margin: 27px 70px 20px 0px;
   }
 
-  #egg {
-    margin: 20px 0px 20px 0px;
+  #egg,
+  #cheese,
+  #rice,
+  #tortillas {
+    margin: 20px 0px;
   }
 
   #baja {
     margin: -22px 159px 20px 0px;
   }
 
-  #cheese {
-    margin: 20px 0px 20px 0px;
-  }
-
   #pico {
     margin: -25px 35px 20px 0px;
-  }
-
-  #rice {
-    margin: 20px 0px 20px 0px;
-  }
-
-  #tortillas {
-    margin: 20px 0px 20px 0px;
   }
 
   #egg,
@@ -2317,30 +2229,30 @@ textarea {
   #rice .dish-details,
   #tortillas figure,
   #tortillas .dish-details {
-    width: 50%;
     display: flex;
     flex-flow: column wrap;
+    width: 50%;
   }
 
   #egg figure img,
   #cheese figure img,
   #pico figure img,
   #rice figure img,#tortillas figure img {
-    width: 58%;
     display: flex;
     align-self: center;
+    width: 58%;
   }
 
   #beans figure img {
-    width: 68%;
     display: flex;
     align-self: center;
+    width: 68%;
   }
 
   #baja figure img {
-    width: 95%;
     display: flex;
     align-self: center;
+    width: 95%;
   }
 
   #egg .dish-details,
@@ -2371,25 +2283,19 @@ textarea {
 
   body#about {
     background: url('../img/background/bg-mex-ptrn-long.png');
-    background-size: 375px 1960px;
     background-repeat: no-repeat;
-    
-  }
-
-  #about .content-wrapper {
-
+    background-size: 375px 1960px;
   }
 
   #about .hero-area {
+    background: url('../img/background/bg-box.png');
+    background-position: 25px 25px;
+    background-repeat: no-repeat;
+    background-size: 327px 1997px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('../img/background/bg-box.png');
-    background-size: 327px 1997px;
-    background-repeat: no-repeat;
-    background-position: 25px 25px;
     height: 1930px;
-    
   }
 
   /* Header Area */
@@ -2397,16 +2303,16 @@ textarea {
   .about-top header .content-wrapper {
     display: flex;
     justify-content: center;
-    width: 375px;
     height: 50px;
     margin: 15px 0px;
+    width: 375px;
   }
 
   .about-top header {
-    width: 100%;
     background-color: #AB4F40;
-    margin: 45px 0px;
     height: 50px;
+    margin: 45px 0px;
+    width: 100%;
   }
 
   .about-top header a {
@@ -2415,16 +2321,16 @@ textarea {
 
   .about-top header .nav-btn {
     display: flex;
-    width: 30%;
     margin: 5px -15px;
+    width: 30%;
   }
 
   .about-top header .nav-btn .dot {
-    height: 40px;
-    width: 40px;
     background-color: rgb(94, 92, 92, 0.6);
     border-radius: 50%;
     display: flex;
+    height: 40px;
+    width: 40px;
   }
 
   header .nav-btn .dot i {
@@ -2432,14 +2338,14 @@ textarea {
   }
 
   .about-top header .nav-btn .dot figure {
-    width: 35%;
+    color: #797B3A;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     height: 28px;
     margin: 7px 13px;
-    color: #797B3A;
+    width: 35%;
   }
 
   .about-top header .about-title {
@@ -2448,14 +2354,14 @@ textarea {
   }
 
   .about-top header .about-title h1 {
-    display: flex;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 12px;
     color: #797B3A;
-    line-height: 24px;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
     letter-spacing: 5px;
+    line-height: 24px;
     margin: 15px 24px;
+    text-transform: uppercase;
   }
 
   /* Main Area */
@@ -2465,10 +2371,10 @@ textarea {
   }
 
   .about-bottom {
-    width: 70%;
     display: flex;
     flex-flow: row wrap;
     margin: 0px 58px;
+    width: 70%;
   }
 
   .about-bottom #logo {
@@ -2488,21 +2394,20 @@ textarea {
 
   .about-copy-top {
     display: flex;
-    
   }
   
   .about-bottom .about-copy-top p,
   .about-bottom .about-copy-mid p,
   .about-bottom .about-copy-btm p {
     font-size: 15px;
-    line-height: 2;
     letter-spacing: 1px;
+    line-height: 2;
     margin: 30px 0;
   }
 
   #chef {
-    width: 60%;
     margin: 105px 0px -267px 123px;
+    width: 60%;
   }
 
   #chef img {
@@ -2510,18 +2415,18 @@ textarea {
   }
 
   .sum h2 {
-    font-family: 'Bree', sans-serif;
     color: #AB4F40;
-    text-align: center;
+    font-family: 'Bree', sans-serif;
     font-size: 18px;
-    width: 95%;
     margin: 0px 7px;
+    text-align: center;
+    width: 95%;
   }
 
   #insta-tag h3 {
     color: #BED38E;
-    letter-spacing: 3px;
     font-weight: bold;
+    letter-spacing: 3px;
     margin: 20px 17px;
   }
 
@@ -2531,30 +2436,30 @@ textarea {
   }
 
   .instagram-slider figure {
-    width: 91px;
     height: 88px;
     margin: 5px;
+    width: 91px;
   }
 
   #more-btn {
-    margin: 25px 0px;
-    width: 100%;
     display: flex;
     justify-content: center;
+    margin: 25px 0px;
+    width: 100%;
   }
 
   #more-btn button {
+    background-color: rgb(94, 92, 92, 0.5);
+    border: none;
     color: #AB4F40;
     font-size: 14px;
     letter-spacing: 2px;
     padding: 12px 33px;
-    background-color: rgb(94, 92, 92, 0.5);
-    border: none;
   }
 
   #somb {
-    width: 35%;
     margin: 0px 90px;
+    width: 35%;
   }
 
   #about .about-bottom footer {
